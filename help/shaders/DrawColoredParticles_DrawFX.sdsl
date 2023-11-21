@@ -1,0 +1,55 @@
+﻿
+shader DrawColoredParticles_DrawFX : VS_PS_Base, ShaderUtils
+{
+    StructuredBuffer<float4> ParticlesBuffer;
+    StructuredBuffer<float4> ColorBuffer;
+
+    cbuffer PerFrame
+    {
+        [Color]
+        float ParticleSize;
+    };
+
+    stream float2 TexCoord;
+    stream uint VertexID : SV_VertexID;
+    stream float4 Color;
+
+    // VS ==============================================================================
+
+    stage override void VSMain() 
+    {
+        uint id = streams.VertexID;
+        streams.PositionWS = ParticlesBuffer[id];
+        streams.Color = ColorBuffer[id];
+    }
+
+    // GS ==============================================================================
+
+    stream float Size;
+
+    [maxvertexcount(4)]
+    stage void GSMain(point Input input[1], inout TriangleStream<Output> triangleStream)
+    {
+        streams = input[0];
+
+        for(int i=0; i<4; i++)
+        {
+            streams.TexCoord  = QuadUV[i].xy;
+            
+            float4 posView = mul(streams.PositionWS, WorldView);
+            posView.xyz += QuadPositions[i].xyz * ParticleSize;
+            streams.ShadingPosition = mul(posView, Projection);
+            
+            triangleStream.Append(streams);
+        }
+    }
+
+
+    // PS ==============================================================================
+
+    stage override void PSMain()
+    {
+        CircleSpriteDiscard(streams.TexCoord);       
+        streams.ColorTarget = streams.Color;
+    }
+};
