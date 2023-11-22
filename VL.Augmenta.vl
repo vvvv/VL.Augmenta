@@ -1720,9 +1720,9 @@
   </Patch>
   <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2023.5.3-0318-ge9c919c4d8" />
   <NugetDependency Id="JTr0I52YsldN8CR16XnNgR" Location="VL.IO.TUIO" Version="1.1.0" />
-  <NugetDependency Id="LNWtnLbMR5AL2TniuNTn5F" Location="VL.IO.OSC" Version="1.0.21" />
+  <NugetDependency Id="LNWtnLbMR5AL2TniuNTn5F" Location="VL.IO.OSC" Version="1.0.22" />
   <NugetDependency Id="Ao1zrWgDhBZLgscyWPEWz4" Location="VL.IO.WebSocket" Version="0.7.0-alpha" />
-  <PlatformDependency Id="A3yNDUsxP17OAFoKrgPZbl" Location="./lib/Debug/net6.0/Augmenta.dll" />
+  <PlatformDependency Id="A3yNDUsxP17OAFoKrgPZbl" Location="./lib/net6.0/Augmenta.dll" />
   <NugetDependency Id="R2BlmZDlkLrPgzs7NGcIfm" Location="VL.Augmenta" Version="0.0.0" />
   <PlatformDependency Id="Nc1YPzeJBJjMv5TaTZ0GyG" Location="System.Memory" />
 </Document>
