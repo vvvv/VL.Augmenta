@@ -8,14 +8,17 @@ namespace Augmenta
         Matrix4x4 transform;
 
         //Call once per frame
-        public void Update(Matrix4x4 transform)
+        public void Update(float time, Matrix4x4 transform)
         {
             this.transform = transform;
 
             var objectsToRemove = new List<int>();
-            foreach (var o in objects.Values) 
+            foreach (var o in objects.Values)
+            {
+                o.Update(time);
                 if (o.timeSinceGhost > 1) 
                     objectsToRemove.Add(o.objectID);
+            }
 
             foreach (var oid in objectsToRemove)
             {
@@ -72,7 +75,6 @@ namespace Augmenta
                 objects.Add(objectID, o);
             }
 
-            o.Update(time);
             o.parentTransform = transform;
             o.updateData(time, data, offset);
         }
