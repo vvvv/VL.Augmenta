@@ -28,7 +28,7 @@ namespace Augmenta
             }
         }
 
-        public void processData(float time, Span<byte> data, int offset = 0)
+        public void processData(float time, ReadOnlySpan<byte> data, int offset = 0)
         {
             var type = data[offset];
 
@@ -61,7 +61,7 @@ namespace Augmenta
             }
         }
 
-        private void processObject(float time, Span<byte> data, int offset)
+        private void processObject(float time, ReadOnlySpan<byte> data, int offset)
         {
             var objectID = Utils.ReadInt(data, offset + 1 + sizeof(int)); //offset + sizeof(packettype) + sizeof(packetsize)
 
@@ -79,7 +79,7 @@ namespace Augmenta
             o.updateData(time, data, offset);
         }
 
-        void processZone(float time, Span<byte> data, int offset)
+        void processZone(float time, ReadOnlySpan<byte> data, int offset)
         {
 
         }

@@ -8,7 +8,7 @@ namespace Augmenta
         public int objectID;
         private Vector3[] pointsA = new Vector3[0];
         private int pointCount;
-        public ReadOnlyMemory<Vector3> points => new ReadOnlyMemory<Vector3>(pointsA, 0, pointCount);
+        public ArraySegment<Vector3> points => new ArraySegment<Vector3>(pointsA, 0, pointCount);
 
         public Matrix4x4 transform;
         internal Matrix4x4 parentTransform = Matrix4x4.Identity;
@@ -50,7 +50,7 @@ namespace Augmenta
                 timeSinceGhost = -1;
         }
 
-        public void updateData(float time, Span<byte> data, int offset)
+        public void updateData(float time, ReadOnlySpan<byte> data, int offset)
         {
             var pos = offset + 1 + 2 * sizeof(int); //packet type (1) + packet size (4) + objectID (4)
             while (pos < data.Length)
@@ -76,7 +76,7 @@ namespace Augmenta
             lastUpdateTime = time;
         }
 
-        void updatePointsData(Span<byte> data, int offset)
+        void updatePointsData(ReadOnlySpan<byte> data, int offset)
         {
             pointCount = Utils.ReadInt(data, offset);
             var vectors = Utils.ReadVectors(data, offset + sizeof(int), pointCount * Unsafe.SizeOf<Vector3>());
@@ -93,7 +93,7 @@ namespace Augmenta
             }
         }
 
-        void updateClusterData(Span<byte> data, int offset)
+        void updateClusterData(ReadOnlySpan<byte> data, int offset)
         {
             state = (State)Utils.ReadInt(data, offset);
             if (state == State.Leave) //Will leave

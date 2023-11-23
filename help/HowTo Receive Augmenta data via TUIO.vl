@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MIWFhgk7W9AQGaZ7bAm58b" LanguageVersion="2023.5.3-0318-ge9c919c4d8" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="MIWFhgk7W9AQGaZ7bAm58b" LanguageVersion="2023.5.3-0336-g11a652e64b" Version="0.128">
   <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2023.5.3-0318-ge9c919c4d8" />
   <Patch Id="VYHV37wFVyiPpuqevWBpDc">
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
@@ -407,7 +407,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="LIXaCZrdAIpQJIRLz9fCtt" Comment="TUIO Port" Bounds="207,97,45,15" ShowValueBox="true" isIOBox="true" Value="3333">
+          <Pad Id="LIXaCZrdAIpQJIRLz9fCtt" Comment="TUIO Port" Bounds="207,97,45,15" ShowValueBox="true" isIOBox="true" Value="12000">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>

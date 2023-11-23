@@ -10,21 +10,21 @@ namespace Augmenta
 {
     internal static class Utils
     {
-        internal static int ReadInt(Span<byte> data, int offset)
+        internal static int ReadInt(ReadOnlySpan<byte> data, int offset)
         {
             return MemoryMarshal.Cast<byte, int>(data.Slice(offset))[0];
         }
 
-        internal static float ReadFloat(Span<byte> data, int offset)
+        internal static float ReadFloat(ReadOnlySpan<byte> data, int offset)
         {
             return MemoryMarshal.Cast<byte, float>(data.Slice(offset))[0];
         }
 
-        internal static Vector3 ReadVector(Span<byte> data, int offset)
+        internal static Vector3 ReadVector(ReadOnlySpan<byte> data, int offset)
         {
             return MemoryMarshal.Cast<byte, Vector3>(data.Slice(offset))[0];
         }
-        internal static Span<Vector3> ReadVectors(Span<byte> data, int offset, int length)
+        internal static ReadOnlySpan<Vector3> ReadVectors(ReadOnlySpan<byte> data, int offset, int length)
         {
             return MemoryMarshal.Cast<byte, Vector3>(data.Slice(offset, length));
         }
