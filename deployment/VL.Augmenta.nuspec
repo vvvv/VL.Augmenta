@@ -1,12 +1,8 @@
 <?xml version="1.0"?>
-
-<!-- For more info see: -->
-<!-- https://thegraybook.vvvv.org/reference/extending/publishing.html -->
-
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Augmenta</id>
-    <version>0.0.3-alpha</version>
+    <version>0.0.4-alpha</version>
     <title>VL.Augmenta</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>

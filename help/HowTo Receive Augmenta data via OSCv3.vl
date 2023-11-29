@@ -5,17 +5,17 @@
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory">
       <!--
 
-    ************************ DrawBoxes ************************
+    ************************ DrawObjects ************************
 
 -->
-      <Node Name="DrawBoxes" Bounds="200,100" Id="KnZL0XNzOFDMTHhe71K9r1">
+      <Node Name="DrawObjects" Bounds="200,100" Id="KnZL0XNzOFDMTHhe71K9r1">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
         </p:NodeReference>
         <Patch Id="MiofG1Xmtk8NMO2L55AMaE">
           <Canvas Id="BfZ34HEWEpZLdZcqdGVlrc" CanvasType="Group">
-            <Node Bounds="122,326,640,394" Id="T3pG3v4JmfaLAMh0JxPlk6">
+            <Node Bounds="122,326,640,409" Id="T3pG3v4JmfaLAMh0JxPlk6">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -23,7 +23,7 @@
               </p:NodeReference>
               <Pin Id="HcacR28a0tkP7OkdujtJjl" Name="Break" Kind="OutputPin" />
               <ControlPoint Id="FiNXFAQziTFO52tvdktGW9" Bounds="183,332" Alignment="Top" />
-              <ControlPoint Id="Ezpewf91m7bMolHTVauVDa" Bounds="233,714" Alignment="Bottom" />
+              <ControlPoint Id="Ezpewf91m7bMolHTVauVDa" Bounds="233,729" Alignment="Bottom" />
               <Patch Id="OQmvJHH3xD3Mh8fB06vnq2" ManuallySortedPins="true">
                 <Patch Id="QM4ChlE5TtDP5Wb7htOHeN" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="SYcq1QreDFNNzbQlUOEifC" Name="Update" ManuallySortedPins="true" />
@@ -210,7 +210,7 @@
                   <Pin Id="B8Qh9YS4VP4LGUFxU0ROQL" Name="Input" Kind="StateInputPin" />
                   <Pin Id="EuWmzNoWG2zMapJ6H0CmEp" Name="Center" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="441,646,165,19" Id="P5GSV3ZqGfPMjcbw3zOawx">
+                <Node Bounds="437,646,165,19" Id="P5GSV3ZqGfPMjcbw3zOawx">
                   <p:NodeReference LastCategoryFullName="Stride.Models" LastDependency="VL.Stride.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Sphere" />
@@ -227,7 +227,7 @@
                   <Pin Id="UTjXIGfaBBoOosuBxwl6ey" Name="Enabled" Kind="InputPin" />
                   <Pin Id="I34aOxgSyTRMIAUXIlSgH6" Name="Entity" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="442,583,58,19" Id="QQs1sFWgebILkS18jKYG77">
+                <Node Bounds="437,583,58,19" Id="QQs1sFWgebILkS18jKYG77">
                   <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -250,7 +250,7 @@
                 </Node>
               </Patch>
             </Node>
-            <Node Bounds="212,750,65,19" Id="VcN17oK1l7rPTfWde4VsNa">
+            <Node Bounds="211,765,65,19" Id="VcN17oK1l7rPTfWde4VsNa">
               <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -298,8 +298,8 @@
               <Pin Id="PcbKgFae8eEMKVKoCWNkku" Name="Input" Kind="InputPin" />
               <Pin Id="Kg9SzoC6HhaOSq2lnNC0Md" Name="Output" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="GbytIzGkCDrQSIEY4w45LS" Bounds="183,173" />
-            <ControlPoint Id="CjVoeZa82BWL9yQ8itqIe4" Bounds="214,803" />
+            <ControlPoint Id="GbytIzGkCDrQSIEY4w45LS" Bounds="183,218" />
+            <ControlPoint Id="CjVoeZa82BWL9yQ8itqIe4" Bounds="213,818" />
             <ControlPoint Id="DIovbSkFAyXOzPyJaGOfiU" Bounds="789,531" />
           </Canvas>
           <Patch Id="MIhDBLZWweIOqDKHzfYjrQ" Name="Create" />
@@ -353,10 +353,10 @@
       </Node>
       <!--
 
-    ************************ DrawPlane ************************
+    ************************ DrawScene ************************
 
 -->
-      <Node Name="DrawPlane" Bounds="620,100" Id="V2dHuTGzwloMQDNvasmNBM">
+      <Node Name="DrawScene" Bounds="620,100" Id="V2dHuTGzwloMQDNvasmNBM">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -473,13 +473,13 @@
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pad>
-            <ControlPoint Id="Vq3G54RHWkcPoUy5M6g15m" Bounds="380,246" />
-            <ControlPoint Id="IaXixVHfU9bM6czICNh1fG" Bounds="379,602" />
+            <ControlPoint Id="Vq3G54RHWkcPoUy5M6g15m" Bounds="375,326" />
+            <ControlPoint Id="IaXixVHfU9bM6czICNh1fG" Bounds="380,602" />
           </Canvas>
           <Patch Id="R8Wu1BozjHBNJLPnafWdol" Name="Create" />
           <Patch Id="GIz30mfdVI4NeYZHrbE68U" Name="Update">
             <Pin Id="JaJiClzCDqMNuoJmGNN7ri" Name="Input" Kind="InputPin" Bounds="380,246" />
-            <Pin Id="ApErqCyuRGlM9StXppiHRx" Name="Entity" Kind="OutputPin" Bounds="379,602" />
+            <Pin Id="ApErqCyuRGlM9StXppiHRx" Name="Output" Kind="OutputPin" Bounds="379,602" />
           </Patch>
           <ProcessDefinition Id="QDzCsihl7f1Of1Ua7dje1V">
             <Fragment Id="MIumZABszrgNCNkxte2Cqy" Patch="R8Wu1BozjHBNJLPnafWdol" Enabled="true" />
@@ -528,7 +528,7 @@
             <Pin Id="VFQ5T3WLXKbQOBGOaXT2yE" Name="Objects" Kind="OutputPin" />
             <Pin Id="KjGzAbiT0T5OG80SqoiHgc" Name="OSC Client Open" Kind="OutputPin" />
           </Node>
-          <Node Bounds="336,556,225,19" Id="FJ7S3SJoPBFPFYQMnhcG2V">
+          <Node Bounds="329,556,225,19" Id="FJ7S3SJoPBFPFYQMnhcG2V">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -567,7 +567,7 @@
             <Pin Id="LHZLC36eCF7NuE5GwnRrS9" Name="Back Buffer" Kind="OutputPin" IsHidden="true" />
             <Pin Id="UeCj5jirvq7OEEKqoYTJwJ" Name="Depth Buffer" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Node Bounds="356,513,85,19" Id="G21MAJ5qwvCMrTK8FjqTkY">
+          <Node Bounds="349,513,85,19" Id="G21MAJ5qwvCMrTK8FjqTkY">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -620,7 +620,7 @@
           <Node Bounds="451,457,66,19" Id="R9OYntrrfNvQYoymyZpI27">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Receive Augmenta data via OSCv3.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessNode" Name="DrawBoxes" />
+              <Choice Kind="ProcessNode" Name="DrawObjects" />
             </p:NodeReference>
             <Pin Id="A6AVmWlnwFANJM1ZrnjEWh" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="REKFpY5KqTGNyMmTA8R0xf" Name="Input" Kind="InputPin" />
@@ -660,11 +660,11 @@
           <Node Bounds="369,457,64,19" Id="HoUzf8PXREWOHlalyNrG7y">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Receive Augmenta data via OSCv3.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessNode" Name="DrawPlane" />
+              <Choice Kind="ProcessNode" Name="DrawScene" />
             </p:NodeReference>
             <Pin Id="AP1he0I62ymQG29FG197Gz" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="EGYMofL6AugPAyviE7pMoQ" Name="Input" Kind="InputPin" />
-            <Pin Id="KN0wRsV3Pn7PxZ2GwGHYYq" Name="Entity" Kind="OutputPin" />
+            <Pin Id="KN0wRsV3Pn7PxZ2GwGHYYq" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="Q9TPpPoOwO3N66yMaJQyGm" Bounds="86,109,215,60" ShowValueBox="true" isIOBox="true" Value="Testing the OSCv3 protocol requires an actual device. It is not supported in the Simulator yet!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">

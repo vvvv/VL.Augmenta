@@ -5,17 +5,17 @@
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory">
       <!--
 
-    ************************ DrawBoxes ************************
+    ************************ DrawObjects ************************
 
 -->
-      <Node Name="DrawBoxes" Bounds="200,100" Id="Ak1Y3uHu5WJOIijVO9Zkzx">
+      <Node Name="DrawObjects" Bounds="200,100" Id="Ak1Y3uHu5WJOIijVO9Zkzx">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
         </p:NodeReference>
         <Patch Id="BAIOLocTH23LOV3iTcBZfh">
           <Canvas Id="AnGdOIdS8hbQL3oInyMu3m" CanvasType="Group">
-            <Node Bounds="208,306,478,427" Id="GhaoDaKkWQMPqJsPPLPnxY">
+            <Node Bounds="208,306,478,382" Id="GhaoDaKkWQMPqJsPPLPnxY">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -23,7 +23,7 @@
               </p:NodeReference>
               <Pin Id="ElmI9FmOSq9O7Bhp4TPsr3" Name="Break" Kind="OutputPin" />
               <ControlPoint Id="MJenYiDBNCvMePnFMcFBre" Bounds="278,312" Alignment="Top" />
-              <ControlPoint Id="CMkhOwtGmEcLDouecAetfi" Bounds="323,727" Alignment="Bottom" />
+              <ControlPoint Id="CMkhOwtGmEcLDouecAetfi" Bounds="323,682" Alignment="Bottom" />
               <Patch Id="V0UuOLJ0gsRNpxutGaMJiu" ManuallySortedPins="true">
                 <Patch Id="SMTHlK923skNvPHqDHguMc" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="ScL1rlztTz9QcqNHmVpihw" Name="Update" ManuallySortedPins="true" />
@@ -223,7 +223,7 @@
                 </Node>
               </Patch>
             </Node>
-            <Node Bounds="301,749,65,19" Id="DOdz7pFYBjbOiacDzfkDGJ">
+            <Node Bounds="301,704,65,19" Id="DOdz7pFYBjbOiacDzfkDGJ">
               <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -236,7 +236,7 @@
               <Pin Id="MLPam9uq8QHMRStm8g9uvD" Name="Enabled" Kind="InputPin" />
               <Pin Id="KQFQ8fDe2x2L9q1vPcWYyA" Name="Output" Kind="OutputPin" />
             </Node>
-            <Node Bounds="659,530,165,19" Id="Um1cKLm4vkOLFJte6sSs0y">
+            <Node Bounds="718,530,165,19" Id="Um1cKLm4vkOLFJte6sSs0y">
               <p:NodeReference LastCategoryFullName="Graphics.Skia.Text" LastDependency="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="FontAndParagraph" />
@@ -262,9 +262,9 @@
               <Pin Id="VLKcFYqdioZMWEsOKXIs20" Name="Input" Kind="StateInputPin" />
               <Pin Id="Q1AcmyHtRHPMoigAFB8Pbi" Name="Count" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="MODYTqP7aNbOlgVWrO6LuD" Bounds="278,161" />
-            <ControlPoint Id="SK1n2r3UEsjM9et7c6npso" Bounds="303,790" />
-            <ControlPoint Id="OCFd62XGF0YQRqbvg3K6xj" Bounds="630,241" />
+            <ControlPoint Id="MODYTqP7aNbOlgVWrO6LuD" Bounds="278,191" />
+            <ControlPoint Id="SK1n2r3UEsjM9et7c6npso" Bounds="303,745" />
+            <ControlPoint Id="OCFd62XGF0YQRqbvg3K6xj" Bounds="706,472" />
             <Node Bounds="452,272,30,19" Id="VubR59kkBhNNJXfOTJnCaj">
               <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -324,10 +324,10 @@
       </Node>
       <!--
 
-    ************************ DrawPlane ************************
+    ************************ DrawScene ************************
 
 -->
-      <Node Name="DrawPlane" Bounds="620,100" Id="FxgdKWcAggNLDvk4JPoFA2">
+      <Node Name="DrawScene" Bounds="620,100" Id="FxgdKWcAggNLDvk4JPoFA2">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -422,11 +422,6 @@
               <Pin Id="DKyDnM1ExbJNGvjtlfGvim" Name="Output" Kind="StateOutputPin" />
             </Node>
           </Canvas>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="E1qC1Kl70UmOuIZTKAtg8u">
             <Fragment Id="CGMecM5YteCPi1fXpdCrve" Patch="MryAGNSV0RDLcdfQYExWfx" Enabled="true" />
             <Fragment Id="Pfc6xSlt139LPcLS5FCLxH" Patch="GkRY2j9p7j7OO4UN3YfrE0" Enabled="true" />
@@ -608,10 +603,10 @@
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="455,557,66,19" Id="Adb6FoXSHlRLw1PUX94dW8">
+          <Node Bounds="455,557,74,19" Id="Adb6FoXSHlRLw1PUX94dW8">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Receive Augmenta data via TUIO.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessNode" Name="DrawBoxes" />
+              <Choice Kind="ProcessNode" Name="DrawObjects" />
             </p:NodeReference>
             <Pin Id="R9tH6C5MxOpP1D6batFs5z" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="ODSGGMYH1p9LPLDLnV5NOa" Name="Input" Kind="InputPin" />
@@ -645,10 +640,10 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="370,557,64,19" Id="NwNQheocL1nNmBBG8kWEsM">
+          <Node Bounds="370,557,66,19" Id="NwNQheocL1nNmBBG8kWEsM">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Receive Augmenta data via TUIO.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessNode" Name="DrawPlane" />
+              <Choice Kind="ProcessNode" Name="DrawScene" />
             </p:NodeReference>
             <Pin Id="H7IS8IqX3rUOYhG9TZa2ex" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="NhwxQUA4eCUMkiOR4jhdh0" Name="Scene" Kind="InputPin" />
