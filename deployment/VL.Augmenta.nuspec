@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Augmenta</id>
-    <version>0.0.4-alpha</version>
+    <version>0.0.5-alpha</version>
     <title>VL.Augmenta</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -15,6 +15,7 @@
 	<dependencies>
 		<dependency id="VL.IO.OSC" version="1.0.23" />
 		<dependency id="VL.IO.TUIO" version="1.1.0" />
+		<dependency id="VL.IO.WebSocket" version="0.7.0-alpha" />
     </dependencies>
 	<icon>icon\nugeticon.png</icon>
   </metadata>

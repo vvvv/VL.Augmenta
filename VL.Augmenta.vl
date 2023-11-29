@@ -500,7 +500,7 @@
                 </Patch>
               </Node>
               <Node Bounds="467,343,67,26" Id="PRfe42uKkULNCItjx6S2fk">
-                <p:NodeReference LastCategoryFullName="Augmenta.PleiadesClient" LastDependency="Augmenta.dll">
+                <p:NodeReference LastCategoryFullName="Augmenta.PleiadesClient" LastDependency="VL.Augmenta.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="PleiadesClient" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
@@ -509,7 +509,7 @@
               </Node>
               <Pad Id="TlVPVVKvSkCMpsRShP3Csp" Bounds="469,396" />
               <Node Bounds="467,903,67,26" Id="VzUp7hA8mm3PugHePMBhOQ">
-                <p:NodeReference LastCategoryFullName="Augmenta.PleiadesClient" LastDependency="Augmenta.dll">
+                <p:NodeReference LastCategoryFullName="Augmenta.PleiadesClient" LastDependency="VL.Augmenta.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="PleiadesClient" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationCallFlag" Name="Update" />
@@ -523,7 +523,7 @@
               <ControlPoint Id="LNOGUF23pTAQFDiHUj19zm" Bounds="248,281" />
               <ControlPoint Id="FErxAowCaKBQUIpOMgpX6c" Bounds="368,357" />
               <Node Bounds="639,454,67,26" Id="Ltcow9fGTkmMLHtZQY1mtz">
-                <p:NodeReference LastCategoryFullName="Augmenta.PleiadesParser" LastDependency="Augmenta.dll">
+                <p:NodeReference LastCategoryFullName="Augmenta.PleiadesClient" LastDependency="VL.Augmenta.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="objects" />
                 </p:NodeReference>
@@ -568,12 +568,15 @@
                   <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 </p:NodeReference>
                 <Pin Id="VJKpFeURWd2PCmZ99sAoWh" Name="Break" Kind="OutputPin" />
+                <ControlPoint Id="U1Ka0RlxxDeMuQGCpxPh46" Bounds="514,628" Alignment="Top" />
+                <ControlPoint Id="Q5SzHHnyFxSPQ5m074zA97" Bounds="469,628" Alignment="Top" />
+                <ControlPoint Id="HiiZXRHjHHFMMy2TbIfy5M" Bounds="469,774" Alignment="Bottom" />
                 <Patch Id="JEJ8Ev5jSegLpIbiN2yrCp" ManuallySortedPins="true">
                   <Patch Id="QdUrDAwcvyQLNuPThjY4RI" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="VsgBE2Z7BLjNwD5oN62QSy" Name="Update" ManuallySortedPins="true" />
                   <Patch Id="U8Eyvgogd8SPA42AjtGPMF" Name="Dispose" ManuallySortedPins="true" />
                   <Node Bounds="467,734,72,26" Id="A20zTnUMPgPOoWaiJQ2v7N">
-                    <p:NodeReference LastCategoryFullName="PleiadesParser" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PleiadesClient" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="processData" />
                     </p:NodeReference>
@@ -593,9 +596,6 @@
                     <Pin Id="FXkTatBoHADMxVaYrRSIvs" Name="Output" Kind="StateOutputPin" />
                   </Node>
                 </Patch>
-                <ControlPoint Id="U1Ka0RlxxDeMuQGCpxPh46" Bounds="514,628" Alignment="Top" />
-                <ControlPoint Id="Q5SzHHnyFxSPQ5m074zA97" Bounds="469,628" Alignment="Top" />
-                <ControlPoint Id="HiiZXRHjHHFMMy2TbIfy5M" Bounds="469,774" Alignment="Bottom" />
               </Node>
               <Node Bounds="494,576,62,19" Id="OTY4VJkkWsHQKbsGyEnzDw">
                 <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
@@ -819,7 +819,7 @@
                 <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                 <Patch Id="QeqcV1B7r45NQG41BxuRBE">
                   <Node Bounds="136,318,81,26" AutoConnect="true" Id="SbeOE8R3t0jPqUXQwjwsIs">
-                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="OperationNode" Name="centroid" />
                       <FullNameCategoryReference ID="Augmenta.PObject" />
                     </p:NodeReference>
@@ -862,7 +862,7 @@
                 <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                 <Patch Id="HIHiCMdAMJeLU3wHGsNZxG">
                   <Node Bounds="288,534,81,26" AutoConnect="true" Id="RPhJJEipPk4OULEYWm6cyk">
-                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="OperationNode" Name="maxBounds" />
                       <FullNameCategoryReference ID="Augmenta.PObject" />
                     </p:NodeReference>
@@ -905,7 +905,7 @@
                 <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                 <Patch Id="AmYVMzstM0KPHPLeiq421h">
                   <Node Bounds="142,531,81,26" AutoConnect="true" Id="M7YARpbWtSQL5LDGBFWO1Z">
-                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="OperationNode" Name="minBounds" />
                       <FullNameCategoryReference ID="Augmenta.PObject" />
                     </p:NodeReference>
@@ -948,7 +948,7 @@
                 <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                 <Patch Id="Q3z7C3oICs0PGta19YzCfk">
                   <Node Bounds="285,320,81,26" AutoConnect="true" Id="G3VwF8edE3mOLUSsL4gIV1">
-                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="OperationNode" Name="velocity" />
                       <FullNameCategoryReference ID="Augmenta.PObject" />
                     </p:NodeReference>
@@ -991,7 +991,7 @@
                 <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                 <Patch Id="Ks4lTCIyooDQdIrDa8wqAy">
                   <Node Bounds="137,193,81,26" AutoConnect="true" Id="SX846FU4xhhP4uEETHy8hG">
-                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="OperationNode" Name="objectID" />
                       <FullNameCategoryReference ID="Augmenta.PObject" />
                     </p:NodeReference>
@@ -1016,7 +1016,7 @@
                 <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                 <Patch Id="LLYZOvm9IvvPSJJkMRoxXy">
                   <Node Bounds="313,191,81,26" AutoConnect="true" Id="NpGUehdGkC5PsQtbGx52CK">
-                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="OperationNode" Name="state" />
                       <FullNameCategoryReference ID="Augmenta.PObject" />
                     </p:NodeReference>
@@ -1041,7 +1041,7 @@
                 <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                 <Patch Id="LM7d9yf7g2VMsYUNJszeKS">
                   <Node Bounds="472,192,81,26" AutoConnect="true" Id="OmLbwETcKwtOyE3wgTPZRR">
-                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="OperationNode" Name="weight" />
                       <FullNameCategoryReference ID="Augmenta.PObject" />
                     </p:NodeReference>
@@ -1066,7 +1066,7 @@
                 <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                 <Patch Id="ShRqPSfxdL8MwQ5UnF2rfu">
                   <Node Bounds="487,725,81,26" AutoConnect="true" Id="JYizMHeyvnvP3GES53j61w">
-                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="Augmenta.dll">
+                    <p:NodeReference LastCategoryFullName="Augmenta.PObject" LastDependency="VL.Augmenta.dll">
                       <Choice Kind="OperationNode" Name="points" />
                       <FullNameCategoryReference ID="Augmenta.PObject" />
                     </p:NodeReference>
@@ -2059,6 +2059,6 @@
   <NugetDependency Id="JTr0I52YsldN8CR16XnNgR" Location="VL.IO.TUIO" Version="1.1.0" />
   <NugetDependency Id="LNWtnLbMR5AL2TniuNTn5F" Location="VL.IO.OSC" Version="1.0.22" />
   <NugetDependency Id="Ao1zrWgDhBZLgscyWPEWz4" Location="VL.IO.WebSocket" Version="0.7.0-alpha" />
-  <PlatformDependency Id="A3yNDUsxP17OAFoKrgPZbl" Location="./lib/net6.0/Augmenta.dll" />
   <NugetDependency Id="R2BlmZDlkLrPgzs7NGcIfm" Location="VL.Augmenta" Version="0.0.0" />
+  <PlatformDependency Id="TFmS7H0C2eZQClS6TW3zD4" Location="./lib/net6.0/VL.Augmenta.dll" />
 </Document>
