@@ -5,20 +5,21 @@
 
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>VL.NewLibrary.Template</id>
-    <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
+    <id>VL.Augmenta</id>
     <version>0.0.1-alpha</version>
-    <title>VL.NewLibrary.Template</title>
-    <!-- Provide authors, owners and projectUrl --> 
-    <authors></authors>
-    <owners></owners>
-    <projectUrl></projectUrl>
+    <title>VL.Augmenta</title>
+    <authors>vvvv</authors>
+    <owners>vvvv</owners>
+    <projectUrl>https://github.com/vvvv/VL.Augmenta</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Provide summary and description -->
     <summary></summary>
-    <description></description>
-    <tags>nuget</tags>
-	<license type="expression">MIT</license>
+    <description>Provides support for Augmenta tracking in VL. Try it with vvvv: http://visualprogramming.net/</description>
+    <tags>VL, tracking</tags>
+	<license type="expression">LGPL-3.0-only</license>
+	<dependencies>
+		<dependency id="VL.IO.OSC" version="1.0.23" />
+		<dependency id="VL.IO.TUIO" version="1.1.0" />
+    </dependencies>
 	<icon>icon\nugeticon.png</icon>
   </metadata>
   <files>
