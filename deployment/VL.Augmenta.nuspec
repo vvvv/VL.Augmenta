@@ -6,7 +6,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Augmenta</id>
-    <version>0.0.2-alpha</version>
+    <version>0.0.3-alpha</version>
     <title>VL.Augmenta</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -25,7 +25,7 @@
   <files>
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
-	<file src="..\lib\*.dll" target="lib\" exclude="" />
+	<file src="..\lib\**" target="lib\" exclude="" />
 	<file src="nugeticon.png" target="icon\" />
   </files>
 </package>
