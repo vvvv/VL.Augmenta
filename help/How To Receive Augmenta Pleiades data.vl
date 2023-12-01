@@ -64,7 +64,7 @@
               <Pin Id="NcEWnxlZPw8N83clz6EX8c" Name="Element Count" Kind="OutputPin" />
             </Node>
             <Node Bounds="305,595,144,19" Id="JGS328Z3lBdPN27EXc8TID">
-              <p:NodeReference LastCategoryFullName="Stride.Rendering.DrawShaders" LastDependency="VL.Stride.Rendering.EffectShaderNodes (C:\Users\joreg\OneDrive\Documents\repos\vl-libs\VL.Augmenta\help)">
+              <p:NodeReference LastCategoryFullName="Stride.Rendering.DrawShaders" LastDependency="VL.Stride.Rendering.EffectShaderNodes (C:\Users\joreg\AppData\Local\vvvv\gamma-preview\nugets\VL.Augmenta.0.0.5-alpha\help)">
                 <Choice Kind="ProcessNode" Name="DrawColoredParticlesShader" />
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               </p:NodeReference>
@@ -177,11 +177,6 @@
           <Patch Id="OWpFohchyBsP8C3geWjFiL" Name="Update">
             <Pin Id="PJXB52jPLFzOWIjeuKSt7I" Name="Output" Kind="OutputPin" Bounds="288,728" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="DWpotfmPdOgMXc6XUkoTlC">
             <Fragment Id="SwBH8UXRTQ7OGfXw6vDJzw" Patch="BlUhZmAAxfAOms76haahiD" Enabled="true" />
             <Fragment Id="BmwjRqLoSZEL2Ecg5HEiZE" Patch="OWpFohchyBsP8C3geWjFiL" Enabled="true" />
@@ -595,11 +590,6 @@
             <ControlPoint Id="HTnkCbFEEcnNIbTKGMmYLb" Bounds="277,839" />
             <ControlPoint Id="MuHURf1xWX0Nr1sTPPoLeZ" Bounds="981,426" />
           </Canvas>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="PW2kIhqHcKgPeszizn9qP0">
             <Fragment Id="P744ADbXgRLN1zRYVPlzhE" Patch="NvjN4UjYEodNB4eupAbyX9" Enabled="true" />
             <Fragment Id="JY3OK2q1HeoMGabhgytViR" Patch="VDYb92n5WiRNIJSYKy0P4t" Enabled="true" />
@@ -789,7 +779,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="EwKNSMWOeJ5NOBuQDf21nu" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="RnK73qKPL5lN0fApDRKV2i" Name="Bounds" Kind="InputPin" DefaultValue="1067, 593, 786, 432" IsHidden="true" />
+            <Pin Id="RnK73qKPL5lN0fApDRKV2i" Name="Bounds" Kind="InputPin" DefaultValue="1067, 728, 786, 297" IsHidden="true" />
             <Pin Id="Tskt0LIXcUQLc0tvBwOPcQ" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="UT52FUSeIRcO1oAaeAw4nj" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="PRELHHtoTMeO2mROY3tXsK" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -852,7 +842,6 @@
         <Link Id="TA3FuMPMUQBP18NsYWq5lC" Ids="OzwJPQa9jwqNt6tGpluqG6,IdxRJ6UWkPEMkipwKjPynm" />
         <Link Id="K0qxFek5SOdNEyqxE0oXwY" Ids="MqRM3KBSioRPkPWnl0uk2r,HS6JKsoDisoLGVOCkAMTPU" />
         <Link Id="ACBITqEwIYcL2K7aNoSpJr" Ids="CrbCN5oMBUuPAoOdJ9UYEq,Tg9lhaKJbc0P1rk5UnRjD7" />
-        <Link Id="JzGMLcNVnytLUv0JeT2DFU" Ids="UADoFYfi7NbPRZ2S0nWJLQ,MJ86I8jOl3fOobxa7aHrDY" />
         <Link Id="JVLS4NZPK4cPoMSJfpHOVN" Ids="NSek03LpHKwN7all3gacnX,DO87h7BLXLsNqLByfRLgpJ" />
         <Link Id="Q4Gg4fVGSTiN0lQbzUH73u" Ids="OU4YEQ2JLYuL8DrMgX9Lfc,GAmxLnv82IVNyHyLsNBxXg" />
         <Link Id="Nf7JQ5a5TPgLrBNZM8QTAM" Ids="TEjNdBmxxY7NijLJrmy2BC,KJw7lbYvwRGN4Wh7GDHwnb" />
@@ -860,8 +849,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.0" />
+  <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.5-alpha" />
   <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2023.5.3-0346-g0a53f6c531" />
   <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2023.5.3-0346-g0a53f6c531" />
-  <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.19" />
+  <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.23" />
 </Document>

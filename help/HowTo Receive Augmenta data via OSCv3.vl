@@ -449,14 +449,14 @@
               <Pin Id="Sq6xBjyqUgGQS7MWBVxRWx" Name="Translation" Kind="InputPin" />
               <Pin Id="I0KvBmrDrQfNUQKaHfJqJq" Name="Output" Kind="OutputPin" />
             </Node>
-            <Node Bounds="360,462,25,19" Id="HLBeyJalQduPAxukvZ2Xkm">
+            <Node Bounds="314,463,25,19" Id="HLBeyJalQduPAxukvZ2Xkm">
               <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="4043309057" Name="Vector2" NeedsToBeDirectParent="true" />
                 <Choice Kind="OperationCallFlag" Name="*" />
               </p:NodeReference>
               <Pin Id="BKamUf8po2CPpbtpKjJJre" Name="Input" Kind="InputPin" />
-              <Pin Id="SpqOIDogtKBMgJG5MUSt7Z" Name="Input 2" Kind="InputPin" />
+              <Pin Id="SpqOIDogtKBMgJG5MUSt7Z" Name="Input 2" Kind="InputPin" DefaultValue="0.5, -0.5" />
               <Pin Id="VRUWVqauBprMXEyulBMIZs" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="360,489,33,19" Id="TW9E8ZAQsuOLkzOsI9qM4A">
@@ -468,11 +468,6 @@
               <Pin Id="NTWMHD8kkbyOP56cJnWndQ" Name="Y" Kind="InputPin" />
               <Pin Id="Fwv54KetTNgN0gn6w8Drhb" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="TGtn4TUcZedN4MgaJ4lvAv" Comment="" Bounds="316,419,35,28" ShowValueBox="true" isIOBox="true" Value="0.5, -0.5">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pad>
             <ControlPoint Id="Vq3G54RHWkcPoUy5M6g15m" Bounds="375,326" />
             <ControlPoint Id="IaXixVHfU9bM6czICNh1fG" Bounds="380,602" />
           </Canvas>
@@ -492,13 +487,12 @@
           <Link Id="MSRZfmiSnOxQWcW3oNobXb" Ids="RoAV2vsnw1KMAO8Kl4RMVm,ChkMckenS1IMMcOsSN7ekV" />
           <Link Id="C59mLXL2CmsQCT8kuUsAuy" Ids="RoAV2vsnw1KMAO8Kl4RMVm,BKamUf8po2CPpbtpKjJJre" />
           <Link Id="TUWcJ1hsBMTOtSJbGLPp73" Ids="I0KvBmrDrQfNUQKaHfJqJq,L1DBXbXNDaKO4iKIzPWEo8" />
-          <Link Id="AoRMwenNO9GNoH4NcEp9RJ" Ids="VRUWVqauBprMXEyulBMIZs,TfhvYVAbCqFPC53dRD5C7B" />
           <Link Id="Fp0KLpcGJtLL1493QDQ8Mm" Ids="Fwv54KetTNgN0gn6w8Drhb,Sq6xBjyqUgGQS7MWBVxRWx" />
-          <Link Id="GwOXCRmKobvMXhNZfooBN8" Ids="TGtn4TUcZedN4MgaJ4lvAv,SpqOIDogtKBMgJG5MUSt7Z" />
           <Link Id="HUtsRYrTKodQd0SrST910r" Ids="Vq3G54RHWkcPoUy5M6g15m,HK5KBwv6GX8MKBZnbuK7Yg" />
           <Link Id="Drb458NZow7LBEUA7m9rbf" Ids="JaJiClzCDqMNuoJmGNN7ri,Vq3G54RHWkcPoUy5M6g15m" IsHidden="true" />
           <Link Id="GDdbqIfyfBnODDVwZdOlIh" Ids="IQNutKM0wJ6PPdlIIaEloF,IaXixVHfU9bM6czICNh1fG" />
           <Link Id="L5Xa3liecCJL3gerFtPIga" Ids="IaXixVHfU9bM6czICNh1fG,ApErqCyuRGlM9StXppiHRx" IsHidden="true" />
+          <Link Id="CvPZvOSMGlAMbaf8PnWwTR" Ids="VRUWVqauBprMXEyulBMIZs,TfhvYVAbCqFPC53dRD5C7B" />
         </Patch>
       </Node>
     </Canvas>
@@ -534,7 +528,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="MG08g2N6RDHN4jjAOK88JG" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="HFeqltUm483Nennhwb4QAJ" Name="Bounds" Kind="InputPin" DefaultValue="1038, 82, 615, 343" />
+            <Pin Id="HFeqltUm483Nennhwb4QAJ" Name="Bounds" Kind="InputPin" DefaultValue="1071, 75, 615, 343" />
             <Pin Id="U7Yz7wv22tDQMOe8GcxdYp" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="G4lCr359RSaLnH6CvnCiBk" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="FL1fby8QoKDLChijRxTGYN" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -617,7 +611,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="451,457,66,19" Id="R9OYntrrfNvQYoymyZpI27">
+          <Node Bounds="451,457,74,19" Id="R9OYntrrfNvQYoymyZpI27">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Receive Augmenta data via OSCv3.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="DrawObjects" />
@@ -657,7 +651,7 @@
             <Pin Id="BjfgwK3YeBjLmhSO7ZzTzQ" Name="Inverse View" Kind="OutputPin" />
             <Pin Id="J6PsANtWCLSOAkjvNPSZRV" Name="Camera Component" Kind="OutputPin" />
           </Node>
-          <Node Bounds="369,457,64,19" Id="HoUzf8PXREWOHlalyNrG7y">
+          <Node Bounds="369,457,66,19" Id="HoUzf8PXREWOHlalyNrG7y">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Receive Augmenta data via OSCv3.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="DrawScene" />
@@ -697,8 +691,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.0" />
+  <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.5-alpha" />
   <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2023.5.3-0346-g0a53f6c531" />
   <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2023.5.3-0346-g0a53f6c531" />
-  <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.21" />
+  <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.23" />
 </Document>
