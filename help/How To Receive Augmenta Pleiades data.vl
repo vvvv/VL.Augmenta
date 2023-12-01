@@ -64,7 +64,7 @@
               <Pin Id="NcEWnxlZPw8N83clz6EX8c" Name="Element Count" Kind="OutputPin" />
             </Node>
             <Node Bounds="305,595,144,19" Id="JGS328Z3lBdPN27EXc8TID">
-              <p:NodeReference LastCategoryFullName="Stride.Rendering.DrawShaders" LastDependency="VL.Stride.Rendering.EffectShaderNodes (C:\Users\joreg\AppData\Local\vvvv\gamma-preview\nugets\VL.Augmenta.0.0.5-alpha\help)">
+              <p:NodeReference LastCategoryFullName="Stride.Rendering.DrawShaders" LastDependency="VL.Stride.Rendering.EffectShaderNodes (C:\Users\joreg\OneDrive\Documents\repos\vl-libs\VL.Augmenta\help)">
                 <Choice Kind="ProcessNode" Name="DrawColoredParticlesShader" />
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               </p:NodeReference>
@@ -479,14 +479,13 @@
                   <Pin Id="F1GWWInk54DPo4WmzbBnDd" Name="Count" Kind="InputPin" />
                   <Pin Id="HvNCFsEzaanQL5iUJm1sGU" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="478,408,95,26" Id="IXhjFkssjM6OhlCHZsbiRo">
-                  <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableArraySegment" LastDependency="VL.CoreLib.vl">
+                <Node Bounds="478,408,44,26" Id="IXhjFkssjM6OhlCHZsbiRo">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="ClassType" Name="MutableArraySegment" />
+                    <CategoryReference Kind="4026531840" Name="Spread" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="Count" />
                   </p:NodeReference>
                   <Pin Id="AHIO2M4xwncP6IbN0CG0ww" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="LVV8QN4dDqQNkQeg8QjQmV" Name="Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="NGPYVLKk4tcMuI2YyjXnhX" Name="Count" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="611,533,125,19" Id="PGw27OL9p9PNKoZ3puC53F">
