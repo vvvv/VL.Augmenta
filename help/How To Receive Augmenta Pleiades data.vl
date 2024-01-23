@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LW84tPo5r35L4tkQNoHfsT" LanguageVersion="2023.5.3-0346-g0a53f6c531" Version="0.128">
-  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2023.5.3-0346-g0a53f6c531" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2024.6.0-0013-g668f7988cb" Version="0.128">
+  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2024.6.0-0013-g668f7988cb" />
   <Patch Id="VYHV37wFVyiPpuqevWBpDc">
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -139,13 +139,13 @@
               <Pin Id="GDtq5E0K5j2PrqemRa5uLt" Name="Entity" Kind="OutputPin" />
             </Node>
             <Node Bounds="390,327,145,19" Id="II4eOswT21vMPQVNdIHJ0S">
-              <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastDependency="VL.Stride.vl">
+              <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastDependency="VL.Stride.TextureFX.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="Checkerboard" />
               </p:NodeReference>
+              <Pin Id="CTmXP0MjRCmPIIMWe130nQ" Name="Cell Count" Kind="InputPin" />
               <Pin Id="SDNg7A3fqacMMYR7hePbL1" Name="Black" Kind="InputPin" />
               <Pin Id="TxN3M2QNjacPcD3lTpz7Rr" Name="White" Kind="InputPin" />
-              <Pin Id="CTmXP0MjRCmPIIMWe130nQ" Name="Cell Count" Kind="InputPin" />
               <Pin Id="BjClLVE9X5tNmE5Id7Rxeu" Name="Output Size" Kind="InputPin" />
               <Pin Id="Eh1XjYYKXCCMGvSVRUX8rr" Name="Output Format" Kind="InputPin" />
               <Pin Id="Caj43uJ4QRfNnUwv49JRNG" Name="Render Format" Kind="InputPin" />
@@ -341,6 +341,7 @@
                   </p:NodeReference>
                   <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
                   <Pin Id="VOXhAxRx4a4NxGxIKhbSU4" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="HDrOaOlaAlROCAGQDXpKwe" Name="Output" Kind="OutputPin" />
                   <Pin Id="LxUywo7Puu4LeNkOvl9iud" Name="Points" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="835,474,56,19" Id="UKWsL7l8aU6Pv6uCIQdIKu">
@@ -576,7 +577,7 @@
                 <Choice Kind="OperationCallFlag" Name="Count" />
               </p:NodeReference>
               <Pin Id="BBQ5VkUOO5sNcC18MgfRh0" Name="Input" Kind="StateInputPin" />
-              <Pin Id="L0aOcDchLTuMUQmcAHRSKT" Name="Output" Kind="OutputPin" IsHidden="true" />
+              <Pin Id="L0aOcDchLTuMUQmcAHRSKT" Name="Output" Kind="OutputPin" />
               <Pin Id="GtVsb0ezRB3McEo4JqfdyY" Name="Count" Kind="OutputPin" />
             </Node>
             <Pad Id="KA5VqSijrohPg51k9gtQ5a" Comment="" Bounds="69,779,47,95" ShowValueBox="true" isIOBox="true" Value="0" />
@@ -845,11 +846,13 @@
         <Link Id="Q4Gg4fVGSTiN0lQbzUH73u" Ids="OU4YEQ2JLYuL8DrMgX9Lfc,GAmxLnv82IVNyHyLsNBxXg" />
         <Link Id="Nf7JQ5a5TPgLrBNZM8QTAM" Ids="TEjNdBmxxY7NijLJrmy2BC,KJw7lbYvwRGN4Wh7GDHwnb" />
         <Link Id="DQqqt89knNbLO7ZlzVuy5S" Ids="SMOjcsDzEK5Mt7JB2ngGTh,Kru6tJ4jFbdOGcGOHlGRZt" />
+        <Link Id="KyZsBWwkVXGQLPSkdQ5J8Z" Ids="UADoFYfi7NbPRZ2S0nWJLQ,MJ86I8jOl3fOobxa7aHrDY" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.5-alpha" />
-  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2023.5.3-0346-g0a53f6c531" />
-  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2023.5.3-0346-g0a53f6c531" />
+  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2024.6.0-0013-g668f7988cb" />
+  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2024.6.0-0013-g668f7988cb" />
   <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.23" />
+  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2024.6.0-0013-g668f7988cb" />
 </Document>

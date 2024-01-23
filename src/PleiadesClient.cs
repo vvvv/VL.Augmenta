@@ -38,7 +38,7 @@ namespace Augmenta
                 while (pos < data.Length - 5) //-sizeof(packettype) - sizeof(packetsize)
                 {
                     var packetSize = Utils.ReadInt(data, pos + 1);  //pos + sizeof(packettype)
-                    processData(time, data, pos);
+                    processData(time, data.Slice(pos, packetSize), 0);
                     pos += packetSize;
                 }
             }
