@@ -17,9 +17,6 @@ For use with vvvv, the visual live-programming environment for .NET: http://visu
 - For custom development requests, please [get in touch](mailto:devvvvs@vvvv.org)
 - When making a pull-request, please make sure to read the general [guidelines on contributing to vvvv libraries](https://thegraybook.vvvv.org/reference/extending/contributing.html)
 
-## Credits
-Links to libraries this is based on
-
 ## Sponsoring
 Development of this library was partially sponsored by:  
 * [Refik Anadol Studio](https://refikanadolstudio.com)
