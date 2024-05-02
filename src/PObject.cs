@@ -108,8 +108,8 @@ namespace Augmenta
                 var si = offset + sizeof(int) + i * Unsafe.SizeOf<Vector3>();
 
                 var p = Utils.ReadVector(data, si);
-                if (pointMode == CoordMode.Absolute) 
-                    clusterData[i] = clusterData[i] = p; 
+                if (pointMode == CoordMode.Absolute || i == 1) //i=1 -> don't transform the velocity 
+                    clusterData[i] = p; 
                 else
                     clusterData[i] = Vector3.Transform(p, parentTransform);//  parentTransform.InverseTransformPoint(p);
             }

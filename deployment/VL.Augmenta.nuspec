@@ -2,13 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Augmenta</id>
-    <version>0.0.9-alpha</version>
+    <version>0.0.10-alpha</version>
     <title>VL.Augmenta</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
     <projectUrl>https://github.com/vvvv/VL.Augmenta</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary></summary>
     <description>Provides support for Augmenta tracking in VL. Try it with vvvv: http://visualprogramming.net/</description>
     <tags>VL, tracking</tags>
 	<license type="expression">LGPL-3.0-only</license>
