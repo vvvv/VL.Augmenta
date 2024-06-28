@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2024.6.0-0013-g668f7988cb" Version="0.128">
-  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2024.6.0-0013-g668f7988cb" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2024.6.5" Version="0.128">
+  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2024.6.5" />
   <Patch Id="VYHV37wFVyiPpuqevWBpDc">
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -480,14 +480,14 @@
                   <Pin Id="F1GWWInk54DPo4WmzbBnDd" Name="Count" Kind="InputPin" />
                   <Pin Id="HvNCFsEzaanQL5iUJm1sGU" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="478,408,44,26" Id="IXhjFkssjM6OhlCHZsbiRo">
-                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                <Node Bounds="478,408,44,19" Id="IXhjFkssjM6OhlCHZsbiRo">
+                  <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="4026531840" Name="Spread" NeedsToBeDirectParent="true" />
+                    <CategoryReference Kind="MutableInterfaceType" Name="Sequence" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="Count" />
                   </p:NodeReference>
                   <Pin Id="AHIO2M4xwncP6IbN0CG0ww" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="NGPYVLKk4tcMuI2YyjXnhX" Name="Count" Kind="OutputPin" />
+                  <Pin Id="VKvAm3A2lDEQOKN10XE710" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="611,533,125,19" Id="PGw27OL9p9PNKoZ3puC53F">
                   <p:NodeReference LastCategoryFullName="Stride.Models.Meshes" LastDependency="VL.Stride.vl">
@@ -638,7 +638,6 @@
           <Link Id="QPPeUpZHl3rPdN5qCc96HT" Ids="Ixg6ExOMAxKPTA4SVuYHsf,EeVHX7ZD4MnQMiDtWnIi7D" />
           <Link Id="R8tTRarHeHjPiFowO7ynaz" Ids="Ixg6ExOMAxKPTA4SVuYHsf,VOXhAxRx4a4NxGxIKhbSU4" />
           <Link Id="BrYEjbz7EOXQYuGMFSb7xa" Ids="LxUywo7Puu4LeNkOvl9iud,Ec5nL8ZDeCdNQbdCwgfuQ6" />
-          <Link Id="JQx8IhwP2Y5L7JyfeqQeuG" Ids="NGPYVLKk4tcMuI2YyjXnhX,F1GWWInk54DPo4WmzbBnDd" />
           <Link Id="U1WZ6v0kPgKLG3eDAvsvo6" Ids="ON0w8y2jZsvLimrQwn3h76,AjTuqMVaj6wMwXz23KCsVX" />
           <Link Id="Sk3VfWML2OdNDaIRdZQWAs" Ids="Bis2XF7H2cKMoFlJflN2ir,ON0w8y2jZsvLimrQwn3h76" IsHidden="true" />
           <Link Id="SY8TVqf16O2PtyegYjLp7Q" Ids="ON0w8y2jZsvLimrQwn3h76,BBQ5VkUOO5sNcC18MgfRh0" />
@@ -664,6 +663,7 @@
             <Pin Id="Q49BCsOx778PMbeW0Li9gV" Name="Inverse View" Kind="InputPin" Bounds="998,421" />
             <Pin Id="Q6PvgbwUKnwOukhYta5qfm" Name="Output" Kind="OutputPin" Bounds="277,839" />
           </Patch>
+          <Link Id="FOV5KSSAz0AOGkGs7rIos6" Ids="VKvAm3A2lDEQOKN10XE710,F1GWWInk54DPo4WmzbBnDd" />
         </Patch>
       </Node>
     </Canvas>
@@ -794,6 +794,7 @@
             <Pin Id="Mdhc7YXatE1MDYTZPOQB7X" Name="Post Effects" Kind="InputPin" />
             <Pin Id="QE42Tbkz77KQWCLyGuOPcd" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="TDWSdU5t3SpQcj6rvfDPNs" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+            <Pin Id="NlmzBbUSUs9NSlscnhl6kI" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="P8I391K2ynBP6eAr9aQNEd" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="UxLaGSz2usuQFWCLVZWuFh" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
             <Pin Id="BdsAafaWdmTMEaon2n3Fkc" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
@@ -851,8 +852,8 @@
     </Node>
   </Patch>
   <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.5-alpha" />
-  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2024.6.0-0013-g668f7988cb" />
-  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2024.6.0-0013-g668f7988cb" />
+  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2024.6.5" />
+  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2024.6.5" />
   <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.23" />
-  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2024.6.0-0013-g668f7988cb" />
+  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2024.6.5" />
 </Document>
