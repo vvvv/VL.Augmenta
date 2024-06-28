@@ -12,18 +12,18 @@
     <tags>VL, tracking</tags>
 	<license type="expression">LGPL-3.0-only</license>
 	<dependencies>
-		<dependency id="VL.IO.OSC" version="1.0.23" />
-		<dependency id="VL.IO.TUIO" version="1.1.0" />
-		<dependency id="VL.IO.WebSocket" version="0.7.0-alpha" />
-    </dependencies>
-	<icon>icon\nugeticon.png</icon>
-	<readme>docs\README.md</readme>
+	    <dependency id="VL.IO.OSC" version="1.1.2" />
+	    <dependency id="VL.IO.TUIO" version="1.1.0" />
+	    <dependency id="VL.IO.WebSocket" version="0.7.0-alpha" />
+        </dependencies>
+    <icon>icon\nugeticon.png</icon>
+    <readme>docs\README.md</readme>
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
-	<file src="..\lib\**" target="lib\" exclude="" />
-	<file src="nugeticon.png" target="icon\" />
-	<file src="..\README.md" target="docs\" />
+    <file src="..\lib\**" target="lib\" exclude="" />
+    <file src="nugeticon.png" target="icon\" />
+    <file src="..\README.md" target="docs\" />
   </files>
 </package>
