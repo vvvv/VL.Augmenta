@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2024.6.5" Version="0.128">
-  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2024.6.5" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2024.6.6" Version="0.128">
+  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2024.6.6" />
   <Patch Id="VYHV37wFVyiPpuqevWBpDc">
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -730,7 +730,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="HS6JKsoDisoLGVOCkAMTPU" Comment="Is Connected" Bounds="516,316,35,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="456,374,285,19" Id="Mf5kJPvHyvIMMtzgQEwNlf">
+          <Node Bounds="468,378,285,19" Id="Mf5kJPvHyvIMMtzgQEwNlf">
             <p:NodeReference LastCategoryFullName="Stride.Cameras" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OrbitCamera" />
@@ -768,9 +768,9 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="JcWORuAftY6NqHrW1eCN3w" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Bnmfn8HfAhPQGUGM0ICR9K" Name="Server" Kind="InputPin" />
-            <Pin Id="CAvrfsbTfMMM3I3o0Oa9Zo" Name="Transform" Kind="InputPin" />
+            <Pin Id="THCOsAjqWAMOUA4LklI3AA" Name="Transform" Kind="InputPin" />
             <Pin Id="IdxRJ6UWkPEMkipwKjPynm" Name="Enabled" Kind="InputPin" />
-            <Pin Id="OU4YEQ2JLYuL8DrMgX9Lfc" Name="Output" Kind="OutputPin" />
+            <Pin Id="UxNCjpJxoYsQZHZSbnxUut" Name="Objects" Kind="OutputPin" />
             <Pin Id="MqRM3KBSioRPkPWnl0uk2r" Name="Is Connected" Kind="OutputPin" />
           </Node>
           <Node Bounds="346,510,205,19" Id="Am0JLzQamCjLADRUfyNRT1">
@@ -779,7 +779,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="EwKNSMWOeJ5NOBuQDf21nu" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="RnK73qKPL5lN0fApDRKV2i" Name="Bounds" Kind="InputPin" DefaultValue="1067, 728, 786, 297" IsHidden="true" />
+            <Pin Id="RnK73qKPL5lN0fApDRKV2i" Name="Bounds" Kind="InputPin" DefaultValue="1049, 711, 786, 297" IsHidden="true" />
             <Pin Id="Tskt0LIXcUQLc0tvBwOPcQ" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="UT52FUSeIRcO1oAaeAw4nj" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="PRELHHtoTMeO2mROY3tXsK" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -844,16 +844,16 @@
         <Link Id="K0qxFek5SOdNEyqxE0oXwY" Ids="MqRM3KBSioRPkPWnl0uk2r,HS6JKsoDisoLGVOCkAMTPU" />
         <Link Id="ACBITqEwIYcL2K7aNoSpJr" Ids="CrbCN5oMBUuPAoOdJ9UYEq,Tg9lhaKJbc0P1rk5UnRjD7" />
         <Link Id="JVLS4NZPK4cPoMSJfpHOVN" Ids="NSek03LpHKwN7all3gacnX,DO87h7BLXLsNqLByfRLgpJ" />
-        <Link Id="Q4Gg4fVGSTiN0lQbzUH73u" Ids="OU4YEQ2JLYuL8DrMgX9Lfc,GAmxLnv82IVNyHyLsNBxXg" />
         <Link Id="Nf7JQ5a5TPgLrBNZM8QTAM" Ids="TEjNdBmxxY7NijLJrmy2BC,KJw7lbYvwRGN4Wh7GDHwnb" />
         <Link Id="DQqqt89knNbLO7ZlzVuy5S" Ids="SMOjcsDzEK5Mt7JB2ngGTh,Kru6tJ4jFbdOGcGOHlGRZt" />
         <Link Id="KyZsBWwkVXGQLPSkdQ5J8Z" Ids="UADoFYfi7NbPRZ2S0nWJLQ,MJ86I8jOl3fOobxa7aHrDY" />
+        <Link Id="EcA6pu9q9JtOrxvhH5K14F" Ids="UxNCjpJxoYsQZHZSbnxUut,GAmxLnv82IVNyHyLsNBxXg" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.5-alpha" />
-  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2024.6.5" />
-  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2024.6.5" />
+  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2024.6.6" />
+  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2024.6.6" />
   <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.23" />
-  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2024.6.5" />
+  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2024.6.6" />
 </Document>
