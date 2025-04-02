@@ -9,7 +9,7 @@
     <repository type="git" url="https://github.com/vvvv/VL.Augmenta.git" />
     <projectUrl>https://github.com/vvvv/VL.Augmenta</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Provides support for Augmenta tracking in vvvv/</description>
+    <description>Provides support for Augmenta tracking in vvvv</description>
     <tags>VL, tracking</tags>
 	<license type="expression">LGPL-3.0-only</license>
 	<dependencies>
