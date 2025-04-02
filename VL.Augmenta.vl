@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2025.7.0-0277-g17318dcda9" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2025.7.0-0287-ge0531bcb65" Version="0.128">
   <Patch Id="Rgz0iK0cdl5O6XLZAnSI2k">
     <Canvas Id="EtMz6eWyJpjMOVOROl6714" DefaultCategory="VL.Augmenta" CanvasType="FullCategory">
       <!--
@@ -506,7 +506,7 @@
                   </p:TypeArguments>
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="185,694,612,592" Id="J2ADQrsUxueLbvSk7vTqWQ">
+              <Node Bounds="157,694,640,692" Id="J2ADQrsUxueLbvSk7vTqWQ">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -518,30 +518,6 @@
                 <Patch Id="DdwoNmFgShvNvWDRTVnIUN" ManuallySortedPins="true">
                   <Patch Id="Ka6vJUPFHVINO1Bn5WJu0b" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="GzvtW1aIogmOvVe5wl4Gjs" Name="Then" ManuallySortedPins="true" />
-                  <Node Bounds="197,1240,75,26" Id="NTL9jBSwxLfQPkH1najC8V">
-                    <p:NodeReference LastCategoryFullName="IO.WebSocket.WebSocketClient" LastDependency="VL.IO.WebSocket.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="ClassType" Name="WebSocketClient" NeedsToBeDirectParent="true" />
-                      <Choice Kind="OperationCallFlag" Name="SendString" />
-                    </p:NodeReference>
-                    <Pin Id="AeemkuAQfU0L7MEWDtLB9g" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="UgJndMDpyNyMh2wju6V1EP" Name="Data" Kind="InputPin" />
-                    <Pin Id="Kid0U2PE1ehM3vyNDDItUE" Name="Encoding" Kind="InputPin" />
-                    <Pin Id="I3nMYJopM1iNj3i6u7xZvw" Name="Cancellation Token" Kind="InputPin" IsHidden="true" />
-                    <Pin Id="EWxl2GJmrxWMcwHwgwJmLT" Name="Apply" Kind="InputPin" DefaultValue="True" />
-                    <Pin Id="GUSyt7aUAajMzlSvzj9LSX" Name="Output" Kind="StateOutputPin" />
-                  </Node>
-                  <Node Bounds="212,1187,108,26" Id="NgC3nMwJ91KMpDEO4JAhNu">
-                    <p:NodeReference LastCategoryFullName="Augmenta.Client`2" LastDependency="AugmentaClientSDK-CS.dll">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="GetRegisterMessage" />
-                    </p:NodeReference>
-                    <Pin Id="E8k7nkBUIIPNUaSkqpAzms" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="ExKTbBHMOLyL3CPRHAGZph" Name="Client Name" Kind="InputPin" />
-                    <Pin Id="KU6oIEvlDpJNQmd9BHcRd3" Name="Options" Kind="InputPin" />
-                    <Pin Id="JtdMnX1QlUqO2IwVB6hIpJ" Name="Output" Kind="StateOutputPin" />
-                    <Pin Id="GuyuI9I0viJNXDfV4ONZrR" Name="Result" Kind="OutputPin" />
-                  </Node>
                   <Node Bounds="315,787,74,26" Id="LKZnNyuBGxAQNx9p3lpZfC">
                     <p:NodeReference LastCategoryFullName="Augmenta.ProtocolOptions" LastDependency="AugmentaClientSDK-CS.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -711,6 +687,53 @@
                     <Pin Id="EAm7HEpyo1WNx6cgDnWqHR" Name="Collection" Kind="InputPin" />
                     <Pin Id="AKaSaikaEnTOFLnCRedbwx" Name="Output" Kind="StateOutputPin" />
                   </Node>
+                  <Node Bounds="216,1200,64,26" Id="DQ6HmRIMOEeOapENLaWble">
+                    <p:NodeReference LastCategoryFullName="Augmenta.BaseClient" LastDependency="AugmentaClientSDK-CS.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <FullNameCategoryReference ID="Augmenta.BaseClient" />
+                      <Choice Kind="OperationCallFlag" Name="Setoptions" />
+                    </p:NodeReference>
+                    <Pin Id="Cv1bh9OXpSHNDhraKJodTu" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="NFldQOTsbNkLezxGtROFLc" Name="Value" Kind="InputPin" />
+                    <Pin Id="DCEKAdX2GhROTRyzWlCXv2" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="186,1241,145,125" Id="R9BqWjwbNHcNzI1IyaE2kv">
+                    <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                      <CategoryReference Kind="Category" Name="Control" />
+                      <Choice Kind="ProcessAppFlag" Name="Do" />
+                    </p:NodeReference>
+                    <Patch Id="RXXHfDCHDzgMQ3QOcuPh8P" ManuallySortedPins="true">
+                      <Patch Id="JjKrFSUeXAfONLEe85DRXM" Name="Create" ManuallySortedPins="true" />
+                      <Patch Id="Ju2guiZnkM4L7E7eqxARAm" Name="Update" ManuallySortedPins="true" />
+                      <Patch Id="JwV1zsNwnv0MVgrxenqEFZ" Name="Dispose" ManuallySortedPins="true" />
+                      <Node Bounds="211,1270,108,26" Id="NgC3nMwJ91KMpDEO4JAhNu">
+                        <p:NodeReference LastCategoryFullName="Augmenta.Client`2" LastDependency="AugmentaClientSDK-CS.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="GetRegisterMessage" />
+                        </p:NodeReference>
+                        <Pin Id="E8k7nkBUIIPNUaSkqpAzms" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="ExKTbBHMOLyL3CPRHAGZph" Name="Client Name" Kind="InputPin" />
+                        <Pin Id="JtdMnX1QlUqO2IwVB6hIpJ" Name="Output" Kind="StateOutputPin" />
+                        <Pin Id="GuyuI9I0viJNXDfV4ONZrR" Name="Result" Kind="OutputPin" />
+                      </Node>
+                      <Node Bounds="198,1320,75,26" Id="NTL9jBSwxLfQPkH1najC8V">
+                        <p:NodeReference LastCategoryFullName="IO.WebSocket.WebSocketClient" LastDependency="VL.IO.WebSocket.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="ClassType" Name="WebSocketClient" NeedsToBeDirectParent="true" />
+                          <Choice Kind="OperationCallFlag" Name="SendString" />
+                        </p:NodeReference>
+                        <Pin Id="AeemkuAQfU0L7MEWDtLB9g" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="UgJndMDpyNyMh2wju6V1EP" Name="Data" Kind="InputPin" />
+                        <Pin Id="Kid0U2PE1ehM3vyNDDItUE" Name="Encoding" Kind="InputPin" />
+                        <Pin Id="I3nMYJopM1iNj3i6u7xZvw" Name="Cancellation Token" Kind="InputPin" IsHidden="true" />
+                        <Pin Id="EWxl2GJmrxWMcwHwgwJmLT" Name="Apply" Kind="InputPin" DefaultValue="True" />
+                        <Pin Id="GUSyt7aUAajMzlSvzj9LSX" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                    </Patch>
+                    <Pin Id="EW7QwK9jVKRL9y94ls5rni" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                    <ControlPoint Id="IYBHkVsWyvoL4R9mC7DJwx" Bounds="218,1247" Alignment="Top" />
+                  </Node>
                 </Patch>
                 <ControlPoint Id="VL4aql9RWDTQdRuQwNSuil" Bounds="283,700" Alignment="Top" />
                 <ControlPoint Id="AYNpEpg3TeXPrdmSEvI6pe" Bounds="429,700" Alignment="Top" />
@@ -843,8 +866,6 @@
             <Link Id="CIehZNvuUmpPfDEpy1OnHm" Ids="FYzatl0ZCAgLGik4o7pS0v,ITbCpD34BPMNZEkmyymr2V" />
             <Link Id="KihwVjZPhwpNbuBhuccc2Q" Ids="BLct4jEMCJRMcnHJ1jBbV7,EPsBGBuMNXpNA3ssE3qJ9y" />
             <Link Id="G0gt9spgwj5LeSn86RgBdx" Ids="VFFr5KD2CNUQMuKFmugAqI,RENX2TaYVB2LLvfDjgBeJX" />
-            <Link Id="TMoPk58LfY1L3pDcz8OT4l" Ids="Ff0AALJGEZuLgZ7XpvhFxU,KU6oIEvlDpJNQmd9BHcRd3" />
-            <Link Id="V22t42iudigNRPSoViHWOA" Ids="GuyuI9I0viJNXDfV4ONZrR,UgJndMDpyNyMh2wju6V1EP" />
             <Link Id="KiqyCDgWbq9L7wBr7SwNgX" Ids="TjPzpUfwCfJMFkN0StJxq1,Hw9nChBTMDBOpe4zO3oqRs" />
             <Link Id="VPKrt46r3BtNUbsZkwd6J7" Ids="LUYYiHLBHYUOqx2XEcr3TK,LEEG0bhveCjMcDuwwzFkSa" />
             <Link Id="SEU1CnsiTNMNrh03Bd8JN5" Ids="MWB91b1I6H8PPlQLKq3Hic,R43zhl77L6bMIu2OOAtlZo" />
@@ -920,6 +941,10 @@
             <Link Id="RDZzG6W5Q0ZLFKAqfBfwzz" Ids="Ch84ZWd7TvaNpz9KjgKBht,DEmVcQg7olRLSDDtDjBMrd" />
             <Link Id="LHfzeW30FdaMh2Lo3zLl4P" Ids="DmEr1umYw5TOkfyVdnzmPo,Ch84ZWd7TvaNpz9KjgKBht" IsHidden="true" />
             <Link Id="KjUE8h8mCDYOOKI93YlWAg" Ids="AdAOcaZsqLNNztfVOUZQUr,RnRA8jReF7pMC8i8TMEsjw" />
+            <Link Id="Tsa6J1oS69CPkuUmfAh0IH" Ids="R5xmu8VCTHHLEagWOoBGUR,Cv1bh9OXpSHNDhraKJodTu" />
+            <Link Id="VPqJLwckyr5PE91KQzFctT" Ids="Ff0AALJGEZuLgZ7XpvhFxU,NFldQOTsbNkLezxGtROFLc" />
+            <Link Id="HfR2nYZZ3HvOORiDfSqesF" Ids="DCEKAdX2GhROTRyzWlCXv2,IYBHkVsWyvoL4R9mC7DJwx" />
+            <Link Id="HPcbKuaZANQPzs6xvX24S9" Ids="GuyuI9I0viJNXDfV4ONZrR,UgJndMDpyNyMh2wju6V1EP" />
           </Patch>
         </Node>
         <!--
@@ -1547,7 +1572,7 @@
                 <Pin Id="NBMirbXtsE2NDjrRyXdOlf" Name="Time" Kind="InputPin" />
                 <Pin Id="T4JgN0Xm6eXMFODhAv7zsL" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="258,884,156,150" Id="MRuQuQzJH89N2ENYihDxUJ">
+              <Node Bounds="258,884,207,150" Id="MRuQuQzJH89N2ENYihDxUJ">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -1569,12 +1594,10 @@
                     </p:NodeReference>
                     <Pin Id="BF5F8jfnNRgNzTEboGXtW8" Name="Input" Kind="StateInputPin" />
                     <Pin Id="GRi9lpVs1QEMbTJesFHDKL" Name="Time" Kind="InputPin" />
-                    <Pin Id="CMmzagTvQeMPDf2fC23a7z" Name="Bytes" Kind="InputPin" />
-                    <Pin Id="KEckoTbamdmLHEsSQOjaIt" Name="Offset" Kind="InputPin" />
+                    <Pin Id="FpLt3ECx510P0qtA3gHMWg" Name="Data Buffer" Kind="InputPin" />
                     <Pin Id="GSjgtUY3jduPFCZRRJgcgQ" Name="Output" Kind="StateOutputPin" />
-                    <Pin Id="QeXMhGQWF3WOHK8d6cXikF" Name="Decompress" Kind="InputPin" />
                   </Node>
-                  <Node Bounds="299,910,103,19" Id="AWtdLm8T8C5OAzgolmAxA1">
+                  <Node Bounds="350,930,103,19" Id="AWtdLm8T8C5OAzgolmAxA1">
                     <p:NodeReference LastCategoryFullName="System.ReadOnlySpan" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <FullNameCategoryReference ID="System.ReadOnlySpan" />
@@ -1582,15 +1605,6 @@
                     </p:NodeReference>
                     <Pin Id="QUabcquKxfwPE6HoX1iudp" Name="Input" Kind="InputPin" />
                     <Pin Id="VP8Z8vBEoVGPYJwUVgdCo7" Name="Result" Kind="OutputPin" />
-                  </Node>
-                  <Node Bounds="310,939,83,26" Id="EdQLaEKVTGOM5GbdqrkiPM">
-                    <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableArray" LastDependency="VL.CoreLib.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="ArrayType" Name="MutableArray" NeedsToBeDirectParent="true" />
-                      <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                    </p:NodeReference>
-                    <Pin Id="UPdn1egAxCCPHPjmjEOMU8" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="Ix6WZrepNfaN4qH8s8B2GR" Name="Result" Kind="OutputPin" />
                   </Node>
                 </Patch>
                 <ControlPoint Id="GzsxEFNDad7PA4918wFsNP" Bounds="366,1028" Alignment="Bottom" />
@@ -1771,8 +1785,6 @@
             <Link Id="VnV30GqYOrAMB2fBTG72QY" Ids="AjmUw4vcqS1Nc2EWehl8oD,EObLpJ7Ob97MuYptFYbyUx" />
             <Link Id="Hyn3WpZto8XPdK6MTv90jN" Ids="PD1GPQ6IZDROM8It7LrOIb,UvvDnPFZpoJN8OpBFN5GjL" />
             <Link Id="JgfQ9Wn10dwNPQ6GLj94A4" Ids="FKUn0x7ltn1LaH78HqsZPq,Rbjiu0wbRgZMtB0zJJGAEK" />
-            <Link Id="KwnkqFHQSuELy9BR6NmUUC" Ids="Ix6WZrepNfaN4qH8s8B2GR,CMmzagTvQeMPDf2fC23a7z" />
-            <Link Id="UgQGBEAxMDqL0JY4AHdLvI" Ids="NnqYSqTnvJrN7ZMAoN9ngJ,UPdn1egAxCCPHPjmjEOMU8" />
             <Link Id="FxxRc1h3z2pNIOpwv2KyV6" Ids="QFHawSHhsJ7MclNdTExkuf,E5RtLYmrnaVOSjnYLZlLLk" />
             <Link Id="CjnnjLRVElALnvFN6cTOQJ" Ids="QHNZ7mGGVBCPUbBU5YHrc1,QFHawSHhsJ7MclNdTExkuf" IsHidden="true" />
             <Link Id="T0GkbV77U50PrYIAPIfNOr" Ids="Dbcyz0VsBdLNXwWpg4fTmv,H2ngToh2wzTQbUiclcuSKu" IsHidden="true" />
@@ -1794,6 +1806,7 @@
             <Link Id="KRTEhhcROoOM1zq0HP7DqK" Ids="QFHawSHhsJ7MclNdTExkuf,SRhJkbx5qE4Ms6WRgyXNwW" />
             <Patch Id="EDwLApNNhg2NlN0ug41f95" Name="GetObjects" />
             <Patch Id="FQs17WpaPTsQJcTdMcEDDP" Name="GetScenes" />
+            <Link Id="I1EsjPjuvk2M60d42Hd4Xw" Ids="VP8Z8vBEoVGPYJwUVgdCo7,FpLt3ECx510P0qtA3gHMWg" />
           </Patch>
         </Node>
         <!--
@@ -3408,13 +3421,13 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2025.7.0-0277-g17318dcda9" />
+  <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2025.7.0-0287-ge0531bcb65" />
   <NugetDependency Id="JTr0I52YsldN8CR16XnNgR" Location="VL.IO.TUIO" Version="1.1.0" />
   <NugetDependency Id="LNWtnLbMR5AL2TniuNTn5F" Location="VL.IO.OSC" Version="1.0.23" />
   <NugetDependency Id="Ao1zrWgDhBZLgscyWPEWz4" Location="VL.IO.WebSocket" Version="1.1.0" />
   <NugetDependency Id="R2BlmZDlkLrPgzs7NGcIfm" Location="VL.Augmenta" Version="0.0.5-alpha" />
   <PlatformDependency Id="Hk9e0AZ45naOGqnYJc6X5h" Location="System.Runtime" />
-  <NugetDependency Id="Gr9bOBRpViJMxvmXzg5apD" Location="augmenta.client.sdk" Version="2.0.1" />
+  <NugetDependency Id="Gr9bOBRpViJMxvmXzg5apD" Location="augmenta.client.sdk" Version="2.0.2" />
   <PlatformDependency Id="C5rL9FSFxSTNWQ3eUQbmMR" Location="./lib/net6.0/VL.Augmenta.dll" />
   <PlatformDependency Id="NMQGQnw64pwP5MqshVEQrc" Location="System.Drawing" />
 </Document>

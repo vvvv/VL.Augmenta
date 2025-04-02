@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2025.7.0-0277-g17318dcda9" Version="0.128">
-  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2025.7.0-0277-g17318dcda9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2025.7.0-0287-ge0531bcb65" Version="0.128">
+  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2025.7.0-0287-ge0531bcb65" />
   <Patch Id="VYHV37wFVyiPpuqevWBpDc">
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -970,7 +970,7 @@
               <Patch Id="RlZ1kIacHUULWNLEIdetzu" Name="Create" ManuallySortedPins="true" />
               <Patch Id="EuZuQX172T4QJKUig5wEqk" Name="Update" ManuallySortedPins="true" />
               <Patch Id="EWF2IZQvcm2Lt6CYSNkKBi" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="777,549,205,26" Id="Bg9q901miL7N5COZxTUatc">
+              <Node Bounds="777,549,225,26" Id="Bg9q901miL7N5COZxTUatc">
                 <p:NodeReference LastCategoryFullName="VL.Augmenta.Zone" LastDependency="VL.Augmenta.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="Zone" />
@@ -988,6 +988,7 @@
                 <Pin Id="SdZ7I064xr5Os7I8jRshGA" Name="Pad Y" Kind="OutputPin" />
                 <Pin Id="STNlypqwd48MsG6S2W5HuM" Name="Points" Kind="OutputPin" />
                 <Pin Id="CShvXc68FXnLKPECTgzrsQ" Name="Shape" Kind="OutputPin" />
+                <Pin Id="VGUgUI6fZ2mMYaOikP66rZ" Name="Result" Kind="OutputPin" />
               </Node>
               <Pad Id="F4mPS1djse1MY1BHSreHiR" Comment="Points" Bounds="965,601,142,95" ShowValueBox="true" isIOBox="true" />
             </Patch>
@@ -995,6 +996,7 @@
             <ControlPoint Id="UqKEboklfpIQJnl66D9EOp" Bounds="779,711" Alignment="Bottom" />
             <ControlPoint Id="EyDsbkyTP6xNzlLhozYSvU" Bounds="959,711" Alignment="Bottom" />
             <ControlPoint Id="EeDuCVyg3ekNOP9knuHeGt" Bounds="1069,711" Alignment="Bottom" />
+            <ControlPoint Id="EAXeM45ZXIsQWHz1NBy9h8" Bounds="879,711" Alignment="Bottom" />
           </Node>
           <Pad Id="N1AzbSQe5FhMbVQ0OXqRDK" Comment="" Bounds="959,770,216,87" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
@@ -1044,6 +1046,7 @@
             <Pin Id="T5ZzZqRgHjkMxT41tXMlTu" Name="Size" Kind="OutputPin" />
           </Node>
           <Pad Id="Lv65TPSbJe1Nda3pVHzbDB" Comment="Size" Bounds="1347,880,35,43" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="NemnTe7yRJ1NxL5w0MRNpp" Bounds="879,750,35,15" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="FOMOj1aQLgfMFJ6Kgfmh8u" Name="Create" />
         <Patch Id="IlEJJ2NY2OBLsrH7luyKHX" Name="Update" />
@@ -1079,12 +1082,14 @@
         <Link Id="K9V5P3D0BNpMGqhYO0WQks" Ids="T5ZzZqRgHjkMxT41tXMlTu,Lv65TPSbJe1Nda3pVHzbDB" />
         <Link Id="FCTGn9ymbkSLKwKrX60A1v" Ids="NJYig3YNbGwOAYnlHIJjiq,UByYO2zrfZiLiSuAGGhHRg" />
         <Link Id="O5Yl3IZ2U9WOPnA3nBGDGs" Ids="STNlypqwd48MsG6S2W5HuM,F4mPS1djse1MY1BHSreHiR" />
+        <Link Id="M43Qp5tJ2scLZrU0OZaQly" Ids="VGUgUI6fZ2mMYaOikP66rZ,EAXeM45ZXIsQWHz1NBy9h8" />
+        <Link Id="NKSjwORDOFhP3MkHyvgYYZ" Ids="EAXeM45ZXIsQWHz1NBy9h8,NemnTe7yRJ1NxL5w0MRNpp" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.5-alpha" />
-  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2025.7.0-0277-g17318dcda9" />
-  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2025.7.0-0277-g17318dcda9" />
+  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2025.7.0-0287-ge0531bcb65" />
+  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2025.7.0-0287-ge0531bcb65" />
   <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.23" />
-  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2025.7.0-0277-g17318dcda9" />
+  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2025.7.0-0287-ge0531bcb65" />
 </Document>
