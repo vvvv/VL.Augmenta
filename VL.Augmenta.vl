@@ -2167,6 +2167,55 @@
                   <Link Id="DCnX7f97hWVPMriNicOXkd" Ids="JMRm2lbwfHJM1MYYjPkr8Y,FqKe7mpqrBaMKxhb52T7lE" IsHidden="true" />
                 </Patch>
               </Node>
+              <!--
+
+    ************************ ShapeType ************************
+
+-->
+              <Node Name="ShapeType" Bounds="321,492,225,155" Id="BS28kTzmVR4NtcZtEgt1VJ">
+                <p:NodeReference>
+                  <Choice Kind="OperationDefinition" />
+                </p:NodeReference>
+                <Patch Id="BZdvGuOeCALMNcvB7TlZdA">
+                  <Node Bounds="333,530,82,26" Id="DFg5N5NqjXDQSOhaJZpPCc">
+                    <p:NodeReference LastCategoryFullName="Augmenta.ShapeContainer`1" LastDependency="AugmentaClientSDK-CS.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <FullNameCategoryReference ID="Augmenta.ShapeContainer`1" />
+                      <Choice Kind="OperationCallFlag" Name="shape" />
+                    </p:NodeReference>
+                    <Pin Id="KFW814L7ZPiQF20Ah25Lml" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="GIbmWyWWFNjOrAzIRgO6Wh" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="EU939rY6sOkP0PWj0BX9NB" Name="Shape" Kind="OutputPin" />
+                  </Node>
+                  <Node Bounds="409,580,65,26" Id="MyAKgQaMoitMFcQRhiiqMo">
+                    <p:NodeReference LastCategoryFullName="Augmenta.Shape`1" LastDependency="AugmentaClientSDK-CS.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="shapeType" />
+                    </p:NodeReference>
+                    <Pin Id="JO4EaUy2PrqLCDl6Qpo3MM" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="A4T0xvpdy71PW0LVQqxncj" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="Vp8T189xnM6NCqQ7RhrjJy" Name="Shape Type" Kind="OutputPin" />
+                  </Node>
+                  <Link Id="T0oKzDPK2iwPJSgnXTY0YO" Ids="EU939rY6sOkP0PWj0BX9NB,JO4EaUy2PrqLCDl6Qpo3MM" />
+                  <ControlPoint Id="CZGXkZsNGi0PJGSIOGlJmj" Bounds="471,630" />
+                  <Link Id="GfMSCQsVeyXPLXVOechbjw" Ids="Vp8T189xnM6NCqQ7RhrjJy,CZGXkZsNGi0PJGSIOGlJmj" />
+                  <Pin Id="PhLquApjZ5eOVioAPIjDnz" Name="Shape Type" Kind="OutputPin" />
+                  <Link Id="LNiX4Q58Zj0NddmNLuzNIX" Ids="CZGXkZsNGi0PJGSIOGlJmj,PhLquApjZ5eOVioAPIjDnz" IsHidden="true" />
+                  <ControlPoint Id="Dwvax90gHy2MSMLIQiZabK" Bounds="335,510" />
+                  <Link Id="PDxuQsd62DzNISol9c0aSv" Ids="Dwvax90gHy2MSMLIQiZabK,KFW814L7ZPiQF20Ah25Lml" />
+                  <Pin Id="N2QYzgaVQ7JNfaOS7W2ilA" Name="Input" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="VL.Augmenta" LastDependency="VL.Augmenta.vl">
+                      <Choice Kind="TypeFlag" Name="Zone" />
+                      <p:TypeArguments>
+                        <TypeReference>
+                          <Choice Kind="TypeFlag" Name="Vector3" />
+                        </TypeReference>
+                      </p:TypeArguments>
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Link Id="UMnJPDPdIJRLrIyAXKzFFD" Ids="N2QYzgaVQ7JNfaOS7W2ilA,Dwvax90gHy2MSMLIQiZabK" IsHidden="true" />
+                </Patch>
+              </Node>
             </Canvas>
             <ProcessDefinition Id="QsFtOZ6Zkc6OQOW3q7j4AY" IsHidden="true">
               <Fragment Id="MHFfFhz44eQLBkBkQooBIY" Patch="VNfhBg8e0DtPU9EFOJaNeu" />
@@ -2554,11 +2603,6 @@
                 </p:TypeAnnotation>
               </Pin>
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="QBKZjJKXp4FQCWFkgC3agw">
               <Fragment Id="FTUxoOBDIesMcvsW4m2eu2" Patch="MjTcksuCvdwNC5KACpCZcV" Enabled="true" />
               <Fragment Id="ImIrEdXSu5DQHIrWoomPbj" Patch="GQ95w44jEJeLAUY0wclbbn" Enabled="true" />
