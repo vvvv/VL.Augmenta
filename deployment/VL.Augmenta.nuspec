@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Augmenta</id>
-    <version>0.1.2-alpha</version>
+    <version>0.2.0-alpha</version>
     <title>VL.Augmenta</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -13,9 +13,9 @@
     <tags>VL, tracking</tags>
 	<license type="expression">LGPL-3.0-only</license>
 	<dependencies>
-	    <dependency id="VL.IO.OSC" version="1.1.3" />
+	    <dependency id="VL.IO.OSC" version="1.1.5" />
 	    <dependency id="VL.IO.TUIO" version="1.1.0" />
-	    <dependency id="VL.IO.WebSocket" version="0.7.0-alpha" />
+	    <dependency id="VL.IO.WebSocket" version="1.1.0" />
     </dependencies>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
