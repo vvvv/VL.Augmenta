@@ -5,10 +5,10 @@
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
 
-    ************************ DrawPointCloud (Internal) ************************
+    ************************ DrawPoints (Internal) ************************
 
 -->
-      <Node Name="DrawPointCloud (Internal)" Bounds="451,300" Id="VjvutUl29tNLQUg4PwzeBK">
+      <Node Name="DrawPoints (Internal)" Bounds="502,280" Id="VjvutUl29tNLQUg4PwzeBK">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <FullNameCategoryReference ID="Primitive" />
@@ -291,7 +291,7 @@
               <Pin Id="PtYtMWCDQ2yNmzG1EXg8Ki" Name="Y" Kind="InputPin" />
               <Pin Id="F5XRwhRuGE2LVjnhm3pZtk" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="691,144,451,592" Id="SZBr12rbnYBPpREA3QJM0p">
+            <Node Bounds="751,144,391,592" Id="SZBr12rbnYBPpREA3QJM0p">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -417,42 +417,6 @@
                   <ControlPoint Id="EsvRsKRNgcWLFUXpkLO2KK" Bounds="879,577" Alignment="Bottom" />
                   <ControlPoint Id="I8ia3BSxH1jNLv9z838Coe" Bounds="879,340" Alignment="Top" />
                 </Node>
-                <Node Bounds="709,317,68,19" Id="R9K9aR4n82hObibDKCCMPx">
-                  <p:NodeReference LastCategoryFullName="VL.Augmenta" LastDependency="VL.Augmenta.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="ZoneEvents" />
-                  </p:NodeReference>
-                  <Pin Id="Eh8Zc3Nhu2bNxXQL7C9LIV" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="Gl4bauWd2C8NCFgX47lCR7" Name="Input" Kind="InputPin" />
-                  <Pin Id="C7LB27ISldgN1Pr43GwP8p" Name="Entered" Kind="OutputPin" />
-                  <Pin Id="QhAYNEh2iO9QIb1tXCGDAE" Name="Exited" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="703,381,65,19" Id="VvxmZevmXPFNkPtm3xdzt3">
-                  <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
-                  </p:NodeReference>
-                  <Pin Id="FjS47HCxM8VMu2tkooKYVN" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="UqBUCA1jdVEN1rBmDVdady" Name="Initial Result" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="HKL17G1LJwJQaGtohpAx9Q" Name="Async Notifications" Kind="InputPin" />
-                  <Pin Id="Gs4byzrLx37NVDcJB3HhlI" Name="Reset" Kind="InputPin" />
-                  <Pin Id="GWoydc3e2NCLMbr1eYwxuD" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="GYt26KyaKCQOUBQKTV17e5" Name="Value" Kind="OutputPin" />
-                  <Pin Id="FdpwKUS9gKnLVfnRbM1ACc" Name="On Data" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="779,380,65,19" Id="AyYHAOrIWPdOsO56wE02xc">
-                  <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
-                  </p:NodeReference>
-                  <Pin Id="I0irF6oSoRbLZDJ8FWXu5v" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="TNZ7Q3kp29XOjxB2UqjpDU" Name="Initial Result" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="FcbktPWscKHOlcWU45bOpZ" Name="Async Notifications" Kind="InputPin" />
-                  <Pin Id="VYeNmyCj0wIMqtbELlQ6tc" Name="Reset" Kind="InputPin" />
-                  <Pin Id="D3QOi3ATtOuO9wg6LP3c9N" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="J1LpctOdJBVNPpHEp0Pay6" Name="Value" Kind="OutputPin" />
-                  <Pin Id="LNyKeX4WgJqPJ1s4ck98ry" Name="On Data" Kind="OutputPin" />
-                </Node>
                 <Node Bounds="877,671,85,19" Id="O2D0wnkACglO6RfBwYDolU">
                   <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -466,16 +430,6 @@
                   <Pin Id="JL2THz9dWM4NtG7AJy4eQq" Name="Name" Kind="InputPin" />
                   <Pin Id="PWnCcGzMPlLQcmNymZz4TT" Name="Enabled" Kind="InputPin" />
                   <Pin Id="CrfTpHSbSYBOAxC8JooVPY" Name="Output" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="763,410,52,19" Id="Q7WjLCvDBFuNmbkNAPQm1Q">
-                  <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="FlipFlop" />
-                  </p:NodeReference>
-                  <Pin Id="B5HiZ0SvqiCOSWLgYms0j0" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="EKR3G6C0yyrLK24vk76YXf" Name="Set" Kind="ApplyPin" />
-                  <Pin Id="LrujBS7FBE8P5IPsTvoEbX" Name="Reset" Kind="ApplyPin" />
-                  <Pin Id="LIShpBb1KzhL8gRqpZgn1C" Name="State" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="763,440,45,19" Id="JcvirIhfHaDNMy9pT4baWR">
                   <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
@@ -491,7 +445,7 @@
                 <Node Bounds="1062,620,66,19" Id="LO7gujso4kVN4Dho91RoxG">
                   <p:NodeReference LastCategoryFullName="Main" LastDependency="How To Receive Augmenta Pleiades data.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessNode" Name="DrawCloud" />
+                    <Choice Kind="ProcessNode" Name="DrawPointCloud" />
                   </p:NodeReference>
                   <Pin Id="NSITZhhsKcDL1uXbbKtbo1" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="Hk8Np6tzX6hOJqrwJXGeqf" Name="Output" Kind="OutputPin" />
@@ -504,6 +458,15 @@
                     <Choice Kind="TypeFlag" Name="Vector3" />
                   </p:TypeAnnotation>
                 </Pad>
+                <Node Bounds="766,410,25,19" Id="TBF5gMKNEEALBjFPPyDerM">
+                  <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="&gt;" />
+                  </p:NodeReference>
+                  <Pin Id="LQH2IQdHNSmLAZ7ZFqUxiq" Name="Input" Kind="InputPin" />
+                  <Pin Id="P2j4ysGJpGePIjIO3dpkay" Name="Input 2" Kind="InputPin" />
+                  <Pin Id="Bn17IM9P5pkOe3agKiS9Gx" Name="Result" Kind="OutputPin" />
+                </Node>
               </Patch>
               <ControlPoint Id="PytNX2n3LL4OO28vE2NFwJ" Bounds="884,150" Alignment="Top" />
               <ControlPoint Id="MRAMGRymC9iOkgibM5NRIy" Bounds="879,730" Alignment="Bottom" />
@@ -585,20 +548,16 @@
           <Link Id="BCDBlKXpaiANoIjSEcKGlY" Ids="MRAMGRymC9iOkgibM5NRIy,NVxXo8Ixlj8QdZ1CwcExt1" />
           <Link Id="QSg8trVb8xgLwBtGpaPMyX" Ids="RZVhuH2Dm24M4XSsFMvd8b,OAhId1vnl3FN9loZ76v1F3" />
           <Link Id="QqpLWD9fKblOtDREFjvtJH" Ids="FOxL92HpCQ7LOYlt1jhHyp,RZVhuH2Dm24M4XSsFMvd8b" IsHidden="true" />
-          <Link Id="K1BtsFmRCSkL7rIwddQzXe" Ids="PytNX2n3LL4OO28vE2NFwJ,Gl4bauWd2C8NCFgX47lCR7" />
           <Link Id="SMpMCfbHKUrNfG1bI0OvI6" Ids="Qk4lbdECRqEOUfu0kwFuR7,AjS5OO0WoL0L0IgglWLcif" />
-          <Link Id="IbNgpBq6xfNMrVvGvT56go" Ids="C7LB27ISldgN1Pr43GwP8p,HKL17G1LJwJQaGtohpAx9Q" />
-          <Link Id="AadtXyDd1yUPdZkvGe0ren" Ids="QhAYNEh2iO9QIb1tXCGDAE,FcbktPWscKHOlcWU45bOpZ" />
           <Link Id="Mu9JrqgtnxxPxDFdQdHP3S" Ids="CrfTpHSbSYBOAxC8JooVPY,MRAMGRymC9iOkgibM5NRIy" />
           <Link Id="EOEu7p6BQsmOosh8vWjKGX" Ids="Hk8Np6tzX6hOJqrwJXGeqf,G8NakdlWtbJOqIfUZna8xd" />
-          <Link Id="FaOzuxcEEHEQBjytEqR1TX" Ids="FdpwKUS9gKnLVfnRbM1ACc,EKR3G6C0yyrLK24vk76YXf" />
-          <Link Id="JM6D2zjC6rvO1mIcxxHhS4" Ids="LNyKeX4WgJqPJ1s4ck98ry,LrujBS7FBE8P5IPsTvoEbX" />
           <Link Id="VRdU8CtfcqWLVuyFKBCqkx" Ids="US2B3C78jQTMBJQy5ua9Qn,CzG2FeXtlhrNMephpT0XuD" />
           <Link Id="IGxyDS7XfR8Mzr6C0nenGI" Ids="Gb6o4MqpcxhO71f9Vu1cMj,FCEaKyAZrAfLqzXvDJz8Ik" />
           <Link Id="M0NDf1dpT5MOf9ikfZ32QU" Ids="EgG6Sp4WCEUOEOIBzzTgMW,Jv3ndRmlZAFOVLxSzgwydg" />
           <Link Id="AbvsbsZp7w1Lpo8Tk26fGI" Ids="Gelstsacw1rPwQ8xcnh2Am,EbIyTqQIXK5PmBXNTlSBxr" />
           <Link Id="A0rJfYAnKpxOWscqtwTcld" Ids="QUlEO5p4f4JPcJmACr6z8d,Gelstsacw1rPwQ8xcnh2Am" IsHidden="true" />
-          <Link Id="URE79yp8bfxNguoDsrhMhz" Ids="LIShpBb1KzhL8gRqpZgn1C,E5deyx3zqWPNgkZRp91fIW" />
+          <Link Id="A0fCmwIhYURNOT0F8CsPvs" Ids="DaFBxiYYYLBPilocQ0shu6,LQH2IQdHNSmLAZ7ZFqUxiq" />
+          <Link Id="SrBKAKuiGKsLmCs2CGGRNz" Ids="Bn17IM9P5pkOe3agKiS9Gx,E5deyx3zqWPNgkZRp91fIW" />
         </Patch>
       </Node>
       <!--
@@ -854,7 +813,7 @@
                 <Node Bounds="335,580,66,19" Id="MsFIYkyOlSoLRDBO8x5Ify">
                   <p:NodeReference LastCategoryFullName="Main" LastDependency="How To Receive Augmenta Pleiades data.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessNode" Name="DrawCloud" />
+                    <Choice Kind="ProcessNode" Name="DrawPointCloud" />
                   </p:NodeReference>
                   <Pin Id="VSgPAcusJPHOEyFjRkOqR2" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="M9opDvX04d1MyNXiPECXwh" Name="Output" Kind="OutputPin" />
@@ -989,10 +948,10 @@
       </Node>
       <!--
 
-    ************************ DrawCloud ************************
+    ************************ DrawPointCloud ************************
 
 -->
-      <Node Name="DrawCloud" Bounds="272,300" Id="DV1jsIJy1pMLfkflxptQyr">
+      <Node Name="DrawPointCloud" Bounds="266,280" Id="DV1jsIJy1pMLfkflxptQyr">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -1043,7 +1002,7 @@
             <Node Bounds="447,594,89,19" Id="KGCB3iQfunSLeBr455Zm4Q">
               <p:NodeReference LastCategoryFullName="Main" LastDependency="How To Receive Augmenta Pleiades data.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="DrawPointCloud" />
+                <Choice Kind="ProcessAppFlag" Name="DrawPoints" />
               </p:NodeReference>
               <Pin Id="FAWVNHSHVuKMPeuTXDw0Tc" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="ASbMHOE86UoOXC4nQ8BS7n" Name="Particles Buffer" Kind="InputPin" />
@@ -1158,8 +1117,7 @@
             <Pin Id="HTec5YHtKLrO9Sp5yvaomA" Name="Child" Kind="InputPin" />
             <Pin Id="MJ86I8jOl3fOobxa7aHrDY" Name="Child 2" Kind="InputPin" />
             <Pin Id="KJw7lbYvwRGN4Wh7GDHwnb" Name="Child 3" Kind="InputPin" />
-            <Pin Id="HCC2JbrUqCzMCZ4PkSxd3n" Name="Child 4" Kind="InputPin" />
-            <Pin Id="EyyYHsOm73hOqmfFRmMPmU" Name="Child 5" Kind="InputPin" />
+            <Pin Id="Jm7h6AZTwjQPKPpPmZcaQZ" Name="Child 4" Kind="InputPin" />
             <Pin Id="D5A1dOkHZoxPLNaLQVZydX" Name="Child Scenes" Kind="InputPin" />
             <Pin Id="Pc1CJnAOmkLOr5AdgAi6i2" Name="Enabled" Kind="InputPin" />
             <Pin Id="CrbCN5oMBUuPAoOdJ9UYEq" Name="Output" Kind="OutputPin" />
@@ -1296,7 +1254,7 @@
             <Pin Id="OSweX5f1e1RLs4gwJiPmwj" Name="Depth Buffer" Kind="OutputPin" IsHidden="true" />
             <Pin Id="B8jUjO48pUmNvkyw4u7tlg" Name="Present Call Intercept" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Node Bounds="493,815,66,19" Id="E2XVGTfV0XDLnK86ouRtEw">
+          <Node Bounds="493,815,111,19" Id="E2XVGTfV0XDLnK86ouRtEw">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="How To Receive Augmenta Pleiades data.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="DrawSceneAndZones" />
@@ -1307,7 +1265,7 @@
             <Pin Id="MMcp5PqxLltORbIXnxe6Fg" Name="Show Zone Points" Kind="InputPin" />
             <Pin Id="PK4F0FPaR1pQKSLGOoRCYo" Name="Enabled" Kind="InputPin" DefaultValue="True" />
           </Node>
-          <Node Bounds="852,815,77,19" Id="FPi2cXNakbQM0xE89eK1Xh">
+          <Node Bounds="837,815,77,19" Id="FPi2cXNakbQM0xE89eK1Xh">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="How To Receive Augmenta Pleiades data.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="DrawClusters" />
@@ -1319,7 +1277,7 @@
             <Pin Id="TEjNdBmxxY7NijLJrmy2BC" Name="Output" Kind="OutputPin" />
             <Pin Id="R7EOTA8RIZdNbOq5xMkjrZ" Name="Enabled" Kind="InputPin" DefaultValue="True" />
           </Node>
-          <Node Bounds="852,430,53,19" Id="BcQrD9U6SUXQKVTqoWLnQO">
+          <Node Bounds="837,430,53,19" Id="BcQrD9U6SUXQKVTqoWLnQO">
             <p:NodeReference LastCategoryFullName="VL.Augmenta" LastDependency="VL.Augmenta.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Clusters" />
@@ -1362,7 +1320,7 @@
               <Item>Test</Item>
             </p:Value>
           </Pad>
-          <Pad Id="KAyQocSkLO6N3FrFm5ylen" Comment="Show Clusters" Bounds="926,695,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="KAyQocSkLO6N3FrFm5ylen" Comment="Show Clusters" Bounds="911,700,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1370,7 +1328,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NV1YcMUXU5bOWryiuenIJJ" Comment="Stream Zone Points" Bounds="480,171,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="NV1YcMUXU5bOWryiuenIJJ" Comment="Stream Zone Points" Bounds="480,171,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1386,7 +1344,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KCZI7J8jtFcPCQ7yCk9cLw" Comment="Stream Clouds" Bounds="520,251,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="KCZI7J8jtFcPCQ7yCk9cLw" Comment="Stream Clouds" Bounds="520,251,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1394,7 +1352,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="BPxqQHiKFFMMZHWqvXji4m" Comment="Show Cluster Points" Bounds="878,635,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="BPxqQHiKFFMMZHWqvXji4m" Comment="Show Cluster Points" Bounds="863,640,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1402,7 +1360,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QTRglLPRHUKNNhBLQkk9FV" Bounds="926,651,251,19" ShowValueBox="true" isIOBox="true" Value="&lt; If &quot;Stream Cluster Points&quot; is enabled">
+          <Pad Id="QTRglLPRHUKNNhBLQkk9FV" Bounds="911,656,251,19" ShowValueBox="true" isIOBox="true" Value="&lt; If &quot;Stream Cluster Points&quot; is enabled">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1411,7 +1369,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="StHQLV85PcqPIbVm2KeX4I" Comment="Show Scene and Zones" Bounds="556,695,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="StHQLV85PcqPIbVm2KeX4I" Comment="Show Scene and Zones" Bounds="601,701,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1419,7 +1377,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RGUPi4KChl2QG9Icio4kzK" Bounds="575,649,242,19" ShowValueBox="true" isIOBox="true" Value="&lt; If &quot;Stream Zone Points&quot; is enabled">
+          <Pad Id="RGUPi4KChl2QG9Icio4kzK" Bounds="598,664,242,19" ShowValueBox="true" isIOBox="true" Value="&lt; If &quot;Stream Zone Points&quot; is enabled">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1428,12 +1386,59 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IcGHgHCC0X8NKZLesCCg1e" Comment="Show Zone Points" Bounds="525,635,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="IcGHgHCC0X8NKZLesCCg1e" Comment="Show Zone Points" Bounds="548,650,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="967,431,71,19" Id="FNTqSaTYadoOyAP2yZCniW">
+            <p:NodeReference LastCategoryFullName="Augmenta" LastDependency="VL.Augmenta.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="PointClouds" />
+            </p:NodeReference>
+            <Pin Id="TZ5lHLqV5vlMID7bslYouQ" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Ehg4eD84cLSLGuuCRKdBJ2" Name="Input" Kind="InputPin" />
+            <Pin Id="JB3IwklFEvqLX1528YHP9k" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1042,815,89,19" Id="UaTEDGsAwX8Lq47YYHAbpW">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Receive Augmenta data via WebSocket.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="DrawPointCloud" />
+            </p:NodeReference>
+            <Pin Id="OSJzkDDgHcPPLJGsf2DBoT" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PSNWGEfUlmxLDiEIzcQaiu" Name="Points" Kind="InputPin" />
+            <Pin Id="IzLPtrLovPXNd32rTwXTnj" Name="Color" Kind="InputPin" />
+            <Pin Id="ExPON6MyCIaLt42tYUM5Dl" Name="Enabled" Kind="InputPin" DefaultValue="True" />
+            <Pin Id="OEg6wfWYy4qPg2cSgFOfDj" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="967,481,80,19" Id="Ds8ghus7AYRLoahyt1ORwo">
+            <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="FirstOrDefault" />
+            </p:NodeReference>
+            <Pin Id="M186yOofgCIPOPITtWPSrJ" Name="Input" Kind="StateInputPin" />
+            <Pin Id="QSfsCu5vSyMMEEBY5BJxYV" Name="Default Value" Kind="InputPin" />
+            <Pin Id="BmVHtJqHikEQTyWelYcuCn" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="QDIpdeKssmmOck9jFAgoOe" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="AZRoAXWiZKJQZax8GCcln1" Comment="Show PointCoud" Bounds="1128,740,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="JYnBAhbbl7xMnW1uoGjBXj" Bounds="1170,757,251,19" ShowValueBox="true" isIOBox="true" Value="&lt; If &quot;Stream Clouds&quot; is enabled">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
@@ -1454,10 +1459,8 @@
         <Link Id="KyZsBWwkVXGQLPSkdQ5J8Z" Ids="UADoFYfi7NbPRZ2S0nWJLQ,MJ86I8jOl3fOobxa7aHrDY" />
         <Link Id="M81hzroCSj4N5B25m4YfJF" Ids="F0WaNik0gySN98sP0x9EFW,NzQPH3ql2v9LOwlzmAwxQV" />
         <Link Id="EGfCok00BVJMcezN7p59Hx" Ids="F0WaNik0gySN98sP0x9EFW,ORjpH6pOAp3PhutkUJ9pmR" />
-        <Link Id="JzwqngFNrUiMhyANOTZqTc" Ids="A0TTPKhLHvWOmANfa2aAwn,GAmxLnv82IVNyHyLsNBxXg" />
         <Link Id="BhiapJj8w6EPEQSDGETGfV" Ids="OA6pYPnbElHL8NbsnvbwAn,GnqKVXnYDyTPMsI5VBaYre" />
         <Link Id="FMfuRMvFV7fOCqMCxW9HzQ" Ids="Do5hYnBCaBHNBgMQhVnnnj,F44WcD5SyLuPB9CEn5QqJC" />
-        <Link Id="PutdMLkLIEpLetBo7ihL9l" Ids="LSUomKLBRtwPTb15ESffXP,MSDQl3tFrnbNRQUK6Juuxa" />
         <Link Id="PTa4S98IL4xOkMvZkByPyM" Ids="KAyQocSkLO6N3FrFm5ylen,R7EOTA8RIZdNbOq5xMkjrZ" />
         <Link Id="ELBTw60CqdoPx5kY5iL447" Ids="NV1YcMUXU5bOWryiuenIJJ,UOtzrwLd6FfOpJm8QQOgC9" />
         <Link Id="DchXd9jOeQLLGjRh0tu7yi" Ids="R3Nxbky0TPTOl2G2ZEqugi,CPraSGOfmYzL5t63hi2PRt" />
@@ -1465,6 +1468,12 @@
         <Link Id="B4iI6IwJVTnOvwEgv9It0o" Ids="BPxqQHiKFFMMZHWqvXji4m,Ovn123yGcDINTawRQWxMwF" />
         <Link Id="SRBXc1M00KIN6fvytxHJF1" Ids="StHQLV85PcqPIbVm2KeX4I,PK4F0FPaR1pQKSLGOoRCYo" />
         <Link Id="AxyN2diYaZXP2jUZxTDDLp" Ids="IcGHgHCC0X8NKZLesCCg1e,MMcp5PqxLltORbIXnxe6Fg" />
+        <Link Id="Rl2jAghEOwBNPdcqLrRwOR" Ids="F0WaNik0gySN98sP0x9EFW,Ehg4eD84cLSLGuuCRKdBJ2" />
+        <Link Id="QS86maa9FFEPZmaEc9UELE" Ids="A0TTPKhLHvWOmANfa2aAwn,GAmxLnv82IVNyHyLsNBxXg" />
+        <Link Id="TIlbdFedZsoOWFHZcBJSfm" Ids="JB3IwklFEvqLX1528YHP9k,M186yOofgCIPOPITtWPSrJ" />
+        <Link Id="QBbu4Gamo1dNnzXMMwmgXY" Ids="OEg6wfWYy4qPg2cSgFOfDj,Jm7h6AZTwjQPKPpPmZcaQZ" />
+        <Link Id="Gxa98tFMwHJPDnlsLQ5TmF" Ids="AZRoAXWiZKJQZax8GCcln1,ExPON6MyCIaLt42tYUM5Dl" />
+        <Link Id="J1cjwF2VgyPMexYTi8RXHc" Ids="QDIpdeKssmmOck9jFAgoOe,PSNWGEfUlmxLDiEIzcQaiu" />
       </Patch>
     </Node>
   </Patch>
