@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2025.7.0-0335-g7f2489e528" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2025.7.0-0357-gd997588cb6" Version="0.128">
   <Patch Id="Rgz0iK0cdl5O6XLZAnSI2k">
     <Canvas Id="EtMz6eWyJpjMOVOROl6714" DefaultCategory="Augmenta" CanvasType="FullCategory">
       <Canvas Id="BkGczj3mzcOPgjxwDgY3iG" Name="WebSocket" Position="258,404" CanvasType="Group">
@@ -2611,7 +2611,7 @@
             </Patch>
           </Patch>
         </Node>
-        <Pad Id="EXSFvqaJHomMKwzboBWHg1" Bounds="190,288,530,25" ShowValueBox="true" isIOBox="true" Value="https://github.com/Augmenta-tech/Augmenta/wiki/Data#augmenta-tuio-protocol">
+        <Pad Id="EXSFvqaJHomMKwzboBWHg1" Bounds="190,288,530,25" ShowValueBox="true" isIOBox="true" Value="https://tech.docs.augmenta.tech/servers/software/protocols/augmenta-tuio-protocol">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -3589,7 +3589,7 @@
             </Patch>
           </Patch>
         </Node>
-        <Pad Id="HV17JzCPT91OUJ08g7CNF1" Bounds="195,350,526,19" ShowValueBox="true" isIOBox="true" Value="https://github.com/Augmenta-tech/Augmenta/wiki/Data#augmenta-osc-protocol-v30">
+        <Pad Id="HV17JzCPT91OUJ08g7CNF1" Bounds="195,350,526,19" ShowValueBox="true" isIOBox="true" Value="https://tech.docs.augmenta.tech/servers/software/protocols/augmenta-oscv3-protocol">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -3639,13 +3639,12 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2025.7.0-0335-g7f2489e528" />
+  <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2025.7.0-0357-gd997588cb6" />
   <NugetDependency Id="JTr0I52YsldN8CR16XnNgR" Location="VL.IO.TUIO" Version="1.1.0" />
   <NugetDependency Id="LNWtnLbMR5AL2TniuNTn5F" Location="VL.IO.OSC" Version="1.0.23" />
   <NugetDependency Id="Ao1zrWgDhBZLgscyWPEWz4" Location="VL.IO.WebSocket" Version="1.1.0" />
-  <NugetDependency Id="R2BlmZDlkLrPgzs7NGcIfm" Location="VL.Augmenta" Version="0.0.5-alpha" />
   <PlatformDependency Id="Hk9e0AZ45naOGqnYJc6X5h" Location="System.Runtime" />
-  <NugetDependency Id="Gr9bOBRpViJMxvmXzg5apD" Location="augmenta.client.sdk" Version="2.0.3" />
+  <NugetDependency Id="Gr9bOBRpViJMxvmXzg5apD" Location="augmenta.client.sdk" Version="2.0.2" />
   <PlatformDependency Id="C5rL9FSFxSTNWQ3eUQbmMR" Location="./lib/net6.0/VL.Augmenta.dll" />
   <PlatformDependency Id="NMQGQnw64pwP5MqshVEQrc" Location="System.Drawing" />
 </Document>

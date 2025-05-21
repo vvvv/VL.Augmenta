@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2025.7.0-0335-g7f2489e528" Version="0.128">
-  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2025.7.0-0335-g7f2489e528" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2025.7.0-0357-gd997588cb6" Version="0.128">
+  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2025.7.0-0357-gd997588cb6" />
   <Patch Id="VYHV37wFVyiPpuqevWBpDc">
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -200,21 +200,7 @@
               <Pin Id="QP3184svSyXMY6jvB1iY8Y" Name="Output" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="JvyZ3040qEHL3opp8iMUNw" Bounds="288,989" />
-            <Node Bounds="230,90,105,26" Id="BoovtjnXffqOjUnfngTYJA">
-              <p:NodeReference LastCategoryFullName="VL.Augmenta.AScene (Pleiades)" LastDependency="VL.Augmenta.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="ClassType" Name="AScene (WebSocket)" />
-                <Choice Kind="OperationCallFlag" Name="Split" />
-              </p:NodeReference>
-              <Pin Id="PFsHrPvsPVKPYrcaQ5Q1rM" Name="Input" Kind="StateInputPin" />
-              <Pin Id="JojLJSpDUYqP329PN7CKiA" Name="Name" Kind="OutputPin" />
-              <Pin Id="HNML5NQwRBnLZMAs6xHNAs" Name="Position" Kind="OutputPin" />
-              <Pin Id="VFtTbtge2TjMIBnpJf01mT" Name="Size" Kind="OutputPin" />
-              <Pin Id="JBVG9gWNV8tOzOSpHthsTE" Name="Rotation" Kind="OutputPin" />
-              <Pin Id="L9Me8Sfp3lGMSzBHVtXMnu" Name="Color" Kind="OutputPin" />
-              <Pin Id="K0CuKvjDBvqNq1exnO7rDo" Name="Zones" Kind="OutputPin" />
-            </Node>
-            <ControlPoint Id="MNl3syTAaiwMtMRO86JJoq" Bounds="232,60" />
+            <ControlPoint Id="MNl3syTAaiwMtMRO86JJoq" Bounds="228,-14" />
             <Node Bounds="326,570,28,19" Id="VJ5TlFQPdZlQCa2pwDSHgl">
               <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -291,7 +277,7 @@
               <Pin Id="PtYtMWCDQ2yNmzG1EXg8Ki" Name="Y" Kind="InputPin" />
               <Pin Id="F5XRwhRuGE2LVjnhm3pZtk" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="751,144,391,592" Id="SZBr12rbnYBPpREA3QJM0p">
+            <Node Bounds="751,144,412,592" Id="SZBr12rbnYBPpREA3QJM0p">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -442,7 +428,7 @@
                   <Pin Id="UFhClMNNgbTNEB1IKvNv9U" Name="Input 2" Kind="InputPin" DefaultValue="0, 0.7425996, 0.78999996, 1" />
                   <Pin Id="US2B3C78jQTMBJQy5ua9Qn" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="1062,620,66,19" Id="LO7gujso4kVN4Dho91RoxG">
+                <Node Bounds="1062,620,89,19" Id="LO7gujso4kVN4Dho91RoxG">
                   <p:NodeReference LastCategoryFullName="Main" LastDependency="How To Receive Augmenta Pleiades data.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="DrawPointCloud" />
@@ -498,6 +484,47 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="Gelstsacw1rPwQ8xcnh2Am" Bounds="1204,540" />
+            <Node Bounds="214,37,133,80" Id="QPCe0ZUSQnLPPs8Rjh49SW">
+              <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                <CategoryReference Kind="Category" Name="Primitive" />
+                <Choice Kind="ApplicationStatefulRegion" Name="If" />
+              </p:NodeReference>
+              <Pin Id="RdgjDFKbHobOs7VmINfKvF" Name="Condition" Kind="InputPin" />
+              <Patch Id="PGR4YcDVqjjLllacoIBaBU" ManuallySortedPins="true">
+                <Patch Id="BDVaUj1uXF7PjeVFxrPqqB" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="TGc43p6yyX2N4zpkepx5JB" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="226,66,105,26" Id="BoovtjnXffqOjUnfngTYJA">
+                  <p:NodeReference LastCategoryFullName="VL.Augmenta.AScene (Pleiades)" LastDependency="VL.Augmenta.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="ClassType" Name="AScene (WebSocket)" />
+                    <Choice Kind="OperationCallFlag" Name="Split" />
+                  </p:NodeReference>
+                  <Pin Id="PFsHrPvsPVKPYrcaQ5Q1rM" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="JojLJSpDUYqP329PN7CKiA" Name="Name" Kind="OutputPin" />
+                  <Pin Id="HNML5NQwRBnLZMAs6xHNAs" Name="Position" Kind="OutputPin" />
+                  <Pin Id="VFtTbtge2TjMIBnpJf01mT" Name="Size" Kind="OutputPin" />
+                  <Pin Id="JBVG9gWNV8tOzOSpHthsTE" Name="Rotation" Kind="OutputPin" />
+                  <Pin Id="L9Me8Sfp3lGMSzBHVtXMnu" Name="Color" Kind="OutputPin" />
+                  <Pin Id="K0CuKvjDBvqNq1exnO7rDo" Name="Zones" Kind="OutputPin" />
+                </Node>
+              </Patch>
+              <ControlPoint Id="IHQeIAl7y1zNZiRk5zJUSk" Bounds="248,111" Alignment="Bottom" />
+              <ControlPoint Id="FrtT8ZaYuNiOVRYxssRhCF" Bounds="248,43" Alignment="Top" />
+              <ControlPoint Id="RX00bGZhIryN3IFi81uZKl" Bounds="268,111" Alignment="Bottom" />
+              <ControlPoint Id="DcQ773BIoGIMBW0XqZ6WzF" Bounds="268,43" Alignment="Top" />
+              <ControlPoint Id="Jv6PpP5kerWNe8X7lhz7Ap" Bounds="328,111" Alignment="Bottom" />
+              <ControlPoint Id="T66Q06Kow3cMrx8NIdBGrU" Bounds="328,43" Alignment="Top" />
+            </Node>
+            <Node Bounds="214,6,65,19" Id="J1hrybCDRSBQMMooPTRjI0">
+              <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="IsAssigned" />
+              </p:NodeReference>
+              <Pin Id="G6zErewjUhUMZehT0gwf5k" Name="X" Kind="InputPin" />
+              <Pin Id="U0nHWXrtsAsP3c0pv7Xrap" Name="Result" Kind="OutputPin" />
+              <Pin Id="Brmzx0EDqydMVU24r0okBU" Name="Not Assigned" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <Patch Id="BlUhZmAAxfAOms76haahiD" Name="Create" />
           <Patch Id="OWpFohchyBsP8C3geWjFiL" Name="Update" ManuallySortedPins="true">
@@ -516,7 +543,6 @@
           <Link Id="J2nRT95rGNwOvvCZPJoQ7d" Ids="JvyZ3040qEHL3opp8iMUNw,PJXB52jPLFzOWIjeuKSt7I" IsHidden="true" />
           <Link Id="VKLwujqY27tNNEIG0pNkb1" Ids="MNl3syTAaiwMtMRO86JJoq,PFsHrPvsPVKPYrcaQ5Q1rM" />
           <Link Id="KSmn5b2Ofe5QKucY3cZN4f" Ids="AQs1fLkE53LPyYLebqwPB8,MNl3syTAaiwMtMRO86JJoq" IsHidden="true" />
-          <Link Id="MtOfBvq3NV5NGH6EvZ488R" Ids="VFtTbtge2TjMIBnpJf01mT,A0denwjJ9n1Mi0gpUwqYJY" />
           <Link Id="PQ2rDPti6uWMFTQ5PXbKSh" Ids="InKHq9O6kyuLg99usWX4Gx,CTmXP0MjRCmPIIMWe130nQ" />
           <Link Id="FrFnBlbsgWALIUAojPvIwr" Ids="InKHq9O6kyuLg99usWX4Gx,VY013cp0wcMPtPEkysfpw8" />
           <Link Id="HqrKFEBR3lvNmFMAkLyHa8" Ids="Vgg12BHMYIBPz8dBXGeyDl,JvyZ3040qEHL3opp8iMUNw" />
@@ -524,10 +550,8 @@
           <Link Id="IIpYGwvdVitOPZm92YFVwp" Ids="Th7UEesOCj8MB4gIoTtfXj,JTP3fwR0UysObdbHat8pTA" />
           <Link Id="F3a9DDtB2PnMm0LaBE8aq8" Ids="InKHq9O6kyuLg99usWX4Gx,KvnALrsPDKnLgckQhCPXnT" />
           <Link Id="AMfzfvmm4kYPcdvk0nT7Sr" Ids="TpNOaxLuyoqLX9ugjebdSR,SLniGrnjhJaNOpO7qjojPy" />
-          <Link Id="J9M2jvmAyd3PaO8pDrCW66" Ids="HNML5NQwRBnLZMAs6xHNAs,P5xvTYRes6mL14vOlIj5jE" />
           <Link Id="GVMOQLH4YGiPPpFYfQxY40" Ids="F5XRwhRuGE2LVjnhm3pZtk,TiYBACSyXhgMEDpCZ2dk9C" />
           <Link Id="Vy1PMPhrvuQNUcVaa2txAy" Ids="PYf5CpLaCjCNoFqhdiUnbn,H6qsdLxPPfYQNIo5KQvQXE" />
-          <Link Id="CZGh4r5WOZFLN2ka6H0PNj" Ids="K0CuKvjDBvqNq1exnO7rDo,PytNX2n3LL4OO28vE2NFwJ" />
           <Link Id="AfUSw7BBu5WNV3YjazKQP3" Ids="PytNX2n3LL4OO28vE2NFwJ,CdJIY8bZD04O0m1MQY8xz5" />
           <Link Id="IZ0Cgv4FzMjQObZzdIG6L3" Ids="HIqq9c0GJmgP4n0g03QJi3,Vgde0QBWdakMhVWhSTmk8h" />
           <Link Id="Vsk4YhI01jzPgxj365p1qw" Ids="JnwtJ2sdgxPMprSLqW3ZTj,RJOStdtQSxrMk0fkwydN9b" />
@@ -558,6 +582,17 @@
           <Link Id="A0rJfYAnKpxOWscqtwTcld" Ids="QUlEO5p4f4JPcJmACr6z8d,Gelstsacw1rPwQ8xcnh2Am" IsHidden="true" />
           <Link Id="A0fCmwIhYURNOT0F8CsPvs" Ids="DaFBxiYYYLBPilocQ0shu6,LQH2IQdHNSmLAZ7ZFqUxiq" />
           <Link Id="SrBKAKuiGKsLmCs2CGGRNz" Ids="Bn17IM9P5pkOe3agKiS9Gx,E5deyx3zqWPNgkZRp91fIW" />
+          <Link Id="EIJguVTxiBBLcXUWG4697s" Ids="MNl3syTAaiwMtMRO86JJoq,G6zErewjUhUMZehT0gwf5k" />
+          <Link Id="UT1R7YZiPFZNoMw4di80ZL" Ids="U0nHWXrtsAsP3c0pv7Xrap,RdgjDFKbHobOs7VmINfKvF" />
+          <Link Id="FhaCum93YhRNIZPUBFLbe7" Ids="FrtT8ZaYuNiOVRYxssRhCF,IHQeIAl7y1zNZiRk5zJUSk" IsFeedback="true" />
+          <Link Id="R1HnsGQtuqMLoPwU8CxlDQ" Ids="HNML5NQwRBnLZMAs6xHNAs,IHQeIAl7y1zNZiRk5zJUSk" />
+          <Link Id="AcfaMtMvcFBL1dwVwyPdrL" Ids="IHQeIAl7y1zNZiRk5zJUSk,P5xvTYRes6mL14vOlIj5jE" />
+          <Link Id="JPdB9H3gKgQOLG06DPmd9u" Ids="DcQ773BIoGIMBW0XqZ6WzF,RX00bGZhIryN3IFi81uZKl" IsFeedback="true" />
+          <Link Id="FIMZvCGV8TANEgOZBb9ZoL" Ids="VFtTbtge2TjMIBnpJf01mT,RX00bGZhIryN3IFi81uZKl" />
+          <Link Id="EhIk0AaiVFtMAELGg1rmEH" Ids="RX00bGZhIryN3IFi81uZKl,A0denwjJ9n1Mi0gpUwqYJY" />
+          <Link Id="ISpBpUDhsJCNAsbj2zL05s" Ids="T66Q06Kow3cMrx8NIdBGrU,Jv6PpP5kerWNe8X7lhz7Ap" IsFeedback="true" />
+          <Link Id="Q0ecRSKgiAbOsJspCPBzVN" Ids="K0CuKvjDBvqNq1exnO7rDo,Jv6PpP5kerWNe8X7lhz7Ap" />
+          <Link Id="HvVE07LFcTXLpFZbblqDUp" Ids="Jv6PpP5kerWNe8X7lhz7Ap,PytNX2n3LL4OO28vE2NFwJ" />
         </Patch>
       </Node>
       <!--
@@ -1218,7 +1253,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="EwKNSMWOeJ5NOBuQDf21nu" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="RnK73qKPL5lN0fApDRKV2i" Name="Bounds" Kind="InputPin" DefaultValue="2255, 144, 1318, 893" IsHidden="true" />
+            <Pin Id="RnK73qKPL5lN0fApDRKV2i" Name="Bounds" Kind="InputPin" DefaultValue="1171, 131, 675, 451" IsHidden="true" />
             <Pin Id="Tskt0LIXcUQLc0tvBwOPcQ" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="UT52FUSeIRcO1oAaeAw4nj" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="PRELHHtoTMeO2mROY3tXsK" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -1478,8 +1513,8 @@
     </Node>
   </Patch>
   <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.5-alpha" />
-  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2025.7.0-0335-g7f2489e528" />
-  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2025.7.0-0335-g7f2489e528" />
+  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2025.7.0-0357-gd997588cb6" />
+  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2025.7.0-0357-gd997588cb6" />
   <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.23" />
-  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2025.7.0-0335-g7f2489e528" />
+  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2025.7.0-0357-gd997588cb6" />
 </Document>
