@@ -1,9 +1,12 @@
 # VL.Augmenta
 Support for [Augmenta](https://augmenta.tech/) Tracking Technology in VL.
 
-Has support for the [Augmenta TUIO Protocol](https://github.com/Augmenta-tech/Augmenta/wiki/Data#augmenta-tuio-protocol) and the [Augmenta OSC Protocol v3.0](https://github.com/Augmenta-tech/Augmenta/wiki/Data#augmenta-osc-protocol-v30).
-
-For use with vvvv, the visual live-programming environment for .NET: http://visualprogramming.net
+Supports all 3 protocols:
+- TUIO
+- OSCv3
+- WebSocket (including pointcloud streaming and zones)
+  
+For use with vvvv, the visual live-programming environment for .NET: http://vvvv.org
 
 ## Getting started
 - Install as [described here](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) via commandline:
