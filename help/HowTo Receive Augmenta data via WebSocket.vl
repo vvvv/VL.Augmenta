@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2025.7.0-0357-gd997588cb6" Version="0.128">
-  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2025.7.0-0357-gd997588cb6" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CDAPTx5PBU4PDwARnoKDYv" LanguageVersion="2025.7.0-0563-g4c826503f6" Version="0.128">
+  <NugetDependency Id="AP66q1Sfr8HO802SX1RZpp" Location="VL.CoreLib" Version="2025.7.0-0563-g4c826503f6" />
   <Patch Id="VYHV37wFVyiPpuqevWBpDc">
     <Canvas Id="B4osZgLYmvaNwCt8SrpgwT" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -1179,7 +1179,7 @@
             <Pin Id="EcyR0e6TNqdNpGWmfLOlP0" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="NOE8btK2fXtOZ79ZDtFKZP" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="OzwJPQa9jwqNt6tGpluqG6" Comment="Enabled" Bounds="540,301,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="OzwJPQa9jwqNt6tGpluqG6" Comment="Enabled" Bounds="560,301,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -1193,7 +1193,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="HS6JKsoDisoLGVOCkAMTPU" Comment="Is Connected" Bounds="540,371,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="HS6JKsoDisoLGVOCkAMTPU" Comment="Is Connected" Bounds="560,380,35,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="480,770,285,19" Id="Mf5kJPvHyvIMMtzgQEwNlf">
             <p:NodeReference LastCategoryFullName="Stride.Cameras" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1225,7 +1225,7 @@
             <Pin Id="Mtjhh5N9fuhMAHqSE32jhe" Name="Camera Component" Kind="OutputPin" />
             <Pin Id="Fhn3YpswmMtO5LzJk7lmcj" Name="Interest" Kind="OutputPin" />
           </Node>
-          <Node Bounds="418,340,125,19" Id="O1FVXYXAfAZLP89ldguCst">
+          <Node Bounds="418,340,145,19" Id="O1FVXYXAfAZLP89ldguCst">
             <p:NodeReference LastCategoryFullName="VL.Augmenta" LastDependency="VL.Augmenta.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AugmentaReceiver (WebSocket)" />
@@ -1235,7 +1235,7 @@
             <Pin Id="Bnmfn8HfAhPQGUGM0ICR9K" Name="Server" Kind="InputPin" />
             <Pin Id="Tu2CEKJpfLWMtzUm6HBaPl" Name="Client Name" Kind="InputPin" />
             <Pin Id="KcNm0knOTa0OojdWNqYQvL" Name="Use Compression" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Rbj2i57R3DpM3RXRw1duqn" Name="Downsample" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Rbj2i57R3DpM3RXRw1duqn" Name="Downsample" Kind="InputPin" />
             <Pin Id="MSDQl3tFrnbNRQUK6Juuxa" Name="Tags" Kind="InputPin" />
             <Pin Id="UOtzrwLd6FfOpJm8QQOgC9" Name="Stream Zone Points" Kind="InputPin" DefaultValue="True" />
             <Pin Id="CPraSGOfmYzL5t63hi2PRt" Name="Stream Cluster Points" Kind="InputPin" DefaultValue="False" />
@@ -1247,19 +1247,19 @@
             <Pin Id="F0WaNik0gySN98sP0x9EFW" Name="Output" Kind="OutputPin" />
             <Pin Id="MqRM3KBSioRPkPWnl0uk2r" Name="Is Connected" Kind="OutputPin" />
           </Node>
-          <Node Bounds="473,905,205,19" Id="Am0JLzQamCjLADRUfyNRT1">
+          <Node Bounds="473,905,225,19" Id="Am0JLzQamCjLADRUfyNRT1">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="EwKNSMWOeJ5NOBuQDf21nu" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="RnK73qKPL5lN0fApDRKV2i" Name="Bounds" Kind="InputPin" DefaultValue="1171, 131, 675, 451" IsHidden="true" />
+            <Pin Id="RnK73qKPL5lN0fApDRKV2i" Name="Bounds" Kind="InputPin" DefaultValue="1387.3334, 101.333336, 674.6667, 450.66666" IsHidden="true" />
             <Pin Id="Tskt0LIXcUQLc0tvBwOPcQ" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="UT52FUSeIRcO1oAaeAw4nj" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="PRELHHtoTMeO2mROY3tXsK" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="E0QDGDMgWCaOxoejpL7t9P" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
             <Pin Id="AIpe7jaaiStO4SFTyGiRHD" Name="Depth Buffer Format" Kind="InputPin" IsHidden="true" />
             <Pin Id="HQ3f1cM23M6OZe1dTtDKjG" Name="Input Priority" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EwKNSMWOeJ5NOBuQDf21nu" Name="Node Context" Kind="InputPin" />
             <Pin Id="Tg9lhaKJbc0P1rk5UnRjD7" Name="Input" Kind="InputPin" />
             <Pin Id="Kru6tJ4jFbdOGcGOHlGRZt" Name="Camera" Kind="InputPin" />
             <Pin Id="VDnjyyJZ2YZMku86zhl02q" Name="Enable Default Camera" Kind="InputPin" />
@@ -1274,6 +1274,7 @@
             <Pin Id="UxLaGSz2usuQFWCLVZWuFh" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
             <Pin Id="BdsAafaWdmTMEaon2n3Fkc" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
             <Pin Id="KkyBeNkTlsGOrhwndUFhDk" Name="Enabled" Kind="InputPin" />
+            <Pin Id="IfUwJbfrhmbOtTPFig6EP5" Name="Input Source" Kind="InputPin" IsHidden="true" />
             <Pin Id="DhMUtF1EjH3N7bYJcWr234" Name="Present Interval" Kind="InputPin" />
             <Pin Id="TF9WSbfedoKPvB8B5gM0JU" Name="MSAALevel" Kind="InputPin" IsHidden="true" />
             <Pin Id="S15ZTGKXmJfOfXm5Fp2STH" Name="MSAAResolver" Kind="InputPin" IsHidden="true" />
@@ -1342,7 +1343,7 @@
             <Pin Id="AMJHOXPz5o3OU7V8DZhbe3" Name="Output" Kind="StateOutputPin" />
             <Pin Id="Do5hYnBCaBHNBgMQhVnnnj" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="LSUomKLBRtwPTb15ESffXP" Comment="Tags" Bounds="460,130,56,34" ShowValueBox="true" isIOBox="true">
+          <Pad Id="LSUomKLBRtwPTb15ESffXP" Comment="Tags" Bounds="480,130,56,34" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -1363,7 +1364,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NV1YcMUXU5bOWryiuenIJJ" Comment="Stream Zone Points" Bounds="480,171,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="NV1YcMUXU5bOWryiuenIJJ" Comment="Stream Zone Points" Bounds="500,171,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1371,7 +1372,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="R3Nxbky0TPTOl2G2ZEqugi" Comment="Stream Cluster Points" Bounds="500,211,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="R3Nxbky0TPTOl2G2ZEqugi" Comment="Stream Cluster Points" Bounds="520,211,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1379,7 +1380,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KCZI7J8jtFcPCQ7yCk9cLw" Comment="Stream Clouds" Bounds="520,251,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="KCZI7J8jtFcPCQ7yCk9cLw" Comment="Stream Clouds" Bounds="540,251,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1513,8 +1514,8 @@
     </Node>
   </Patch>
   <NugetDependency Id="SLiyNHanCakLJEXSn4g9kO" Location="VL.Augmenta" Version="0.0.5-alpha" />
-  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2025.7.0-0357-gd997588cb6" />
-  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2025.7.0-0357-gd997588cb6" />
+  <NugetDependency Id="NdfxxTdw3C4Pn93rTJs9CN" Location="VL.Stride" Version="2025.7.0-0563-g4c826503f6" />
+  <NugetDependency Id="QQhGUettdE2MOqalOIgSeP" Location="VL.Skia" Version="2025.7.0-0563-g4c826503f6" />
   <NugetDependency Id="GtVIbtjGgnyPmaBxGazrIQ" Location="VL.IO.OSC" Version="1.0.23" />
-  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2025.7.0-0357-gd997588cb6" />
+  <NugetDependency Id="D1Bei7vKGGBMwaSMf1Gb7j" Location="VL.Stride.TextureFX" Version="2025.7.0-0563-g4c826503f6" />
 </Document>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2025.7.0-0357-gd997588cb6" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2025.7.0-0563-g4c826503f6" Version="0.128">
   <Patch Id="Rgz0iK0cdl5O6XLZAnSI2k">
     <Canvas Id="EtMz6eWyJpjMOVOROl6714" DefaultCategory="Augmenta" CanvasType="FullCategory">
       <Canvas Id="BkGczj3mzcOPgjxwDgY3iG" Name="WebSocket" Position="258,404" CanvasType="Group">
@@ -77,7 +77,7 @@
                   </p:TypeArguments>
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="394,635,635,692" Id="J2ADQrsUxueLbvSk7vTqWQ">
+              <Node Bounds="394,635,641,692" Id="J2ADQrsUxueLbvSk7vTqWQ">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -197,7 +197,7 @@
                     <Pin Id="Suqy4B958OSPbIBBUO4UN9" Name="Value" Kind="InputPin" DefaultValue="True" />
                     <Pin Id="Ff0AALJGEZuLgZ7XpvhFxU" Name="Output" Kind="StateOutputPin" />
                   </Node>
-                  <Pad Id="TjPzpUfwCfJMFkN0StJxq1" Comment="" Bounds="623,767,51,15" ShowValueBox="true" isIOBox="true" Value="v2">
+                  <Pad Id="TjPzpUfwCfJMFkN0StJxq1" Comment="" Bounds="623,767,57,15" ShowValueBox="true" isIOBox="true" Value="v2">
                     <p:TypeAnnotation LastCategoryFullName="Augmenta" LastDependency="AugmentaClientSDK-CS.dll">
                       <Choice Kind="TypeFlag" Name="ProtocolVersion" />
                     </p:TypeAnnotation>
@@ -229,12 +229,12 @@
                     <Pin Id="RnRA8jReF7pMC8i8TMEsjw" Name="Value" Kind="InputPin" DefaultValue="YUpRightHanded" />
                     <Pin Id="KvZvmGGWHuVP9ZTwOYBwR4" Name="Output" Kind="StateOutputPin" />
                   </Node>
-                  <Pad Id="K1aO5icp2lFNdFsQmtLaI5" Comment="" Bounds="666,837,79,15" ShowValueBox="true" isIOBox="true" Value="Radians">
+                  <Pad Id="K1aO5icp2lFNdFsQmtLaI5" Comment="" Bounds="666,837,85,15" ShowValueBox="true" isIOBox="true" Value="Radians">
                     <p:TypeAnnotation LastCategoryFullName="Augmenta.ProtocolOptions" LastDependency="AugmentaClientSDK-CS.dll">
                       <Choice Kind="TypeFlag" Name="RotationMode" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Pad Id="AdAOcaZsqLNNztfVOUZQUr" Comment="" Bounds="898,722,100,15" ShowValueBox="true" isIOBox="true" Value="YUpRightHanded">
+                  <Pad Id="AdAOcaZsqLNNztfVOUZQUr" Comment="" Bounds="898,722,106,15" ShowValueBox="true" isIOBox="true" Value="YUpRightHanded">
                     <p:TypeAnnotation LastCategoryFullName="Augmenta.AxisTransform" LastDependency="AugmentaClientSDK-CS.dll">
                       <Choice Kind="TypeFlag" Name="AxisMode" />
                     </p:TypeAnnotation>
@@ -397,8 +397,8 @@
               <Pin Id="B8dLGxCfIVQMthy2zivNL6" Name="Server" Kind="InputPin" Bounds="224,224" />
               <Pin Id="TV9UDvY0xkMLTsHci8jAiJ" Name="Is Connected" Kind="OutputPin" Bounds="370,356" />
               <Pin Id="E2y4SdITahfMszITPtVXoL" Name="Client Name" Kind="InputPin" DefaultValue="vvvv" />
-              <Pin Id="UA3JJVKrWvgLWM1Zo6Er3g" Name="Use Compression" Kind="InputPin" Visibility="Optional" />
-              <Pin Id="Ilpse3wCoQ1L6PF1nIH2is" Name="Downsample" Kind="InputPin" Visibility="Optional" />
+              <Pin Id="UA3JJVKrWvgLWM1Zo6Er3g" Name="Use Compression" Kind="InputPin" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="Ilpse3wCoQ1L6PF1nIH2is" Name="Downsample" Kind="InputPin" />
               <Pin Id="MWoZkIO5TeiO6gj0Ky7aan" Name="Tags" Kind="InputPin" Visibility="Optional">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Sequence" />
@@ -3639,12 +3639,12 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2025.7.0-0357-gd997588cb6" />
+  <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2025.7.0-0563-g4c826503f6" />
   <NugetDependency Id="JTr0I52YsldN8CR16XnNgR" Location="VL.IO.TUIO" Version="1.1.0" />
   <NugetDependency Id="LNWtnLbMR5AL2TniuNTn5F" Location="VL.IO.OSC" Version="1.0.23" />
   <NugetDependency Id="Ao1zrWgDhBZLgscyWPEWz4" Location="VL.IO.WebSocket" Version="1.1.0" />
   <PlatformDependency Id="Hk9e0AZ45naOGqnYJc6X5h" Location="System.Runtime" />
-  <NugetDependency Id="Gr9bOBRpViJMxvmXzg5apD" Location="augmenta.client.sdk" Version="2.0.2" />
+  <NugetDependency Id="Gr9bOBRpViJMxvmXzg5apD" Location="augmenta.client.sdk" Version="2.0.3" />
   <PlatformDependency Id="C5rL9FSFxSTNWQ3eUQbmMR" Location="./lib/net6.0/VL.Augmenta.dll" />
   <PlatformDependency Id="NMQGQnw64pwP5MqshVEQrc" Location="System.Drawing" />
 </Document>
