@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Augmenta</id>
-    <version>0.2.4-alpha</version>
+    <version>0.3.0-alpha</version>
     <title>VL.Augmenta</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -10,10 +10,10 @@
     <projectUrl>https://github.com/vvvv/VL.Augmenta</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provides support for Augmenta tracking in vvvv</description>
-    <tags>VL, tracking</tags>
+    <tags>VL, tracking, pointcloud</tags>
 	<license type="expression">LGPL-3.0-only</license>
 	<dependencies>
-	    <dependency id="VL.IO.OSC" version="2.0.7" />
+	    <dependency id="VL.IO.OSC" version="2.0.8" />
 	    <dependency id="VL.IO.TUIO" version="1.1.0" />
 	    <dependency id="VL.IO.WebSocket" version="1.1.0" />
 	    <dependency id="augmenta.client.sdk" version="2.0.3" />
