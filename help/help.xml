@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Pack>
   <Topic title="Overview">
-    <VLDocument link="HowTo Receive Augmenta data via WebSocket.vl" tags="" />
-	<VLDocument link="HowTo Play Cloud files.vl" tags="" />
+    <VLDocument link="HowTo Receive Augmenta data.vl" tags="" />
+    <VLDocument link="HowTo Play Cloud files.vl" tags="" />
   </Topic>
   <Topic title="Legacy">
-    <VLDocument link="HowTo Receive Augmenta data via OSCv3.vl" tags="" />
-	<VLDocument link="HowTo Receive Augmenta data via TUIO.vl" tags="" />
+    <VLDocument link="HowTo Receive Augmenta data (OSCv3).vl" tags="" />
+    <VLDocument link="HowTo Receive Augmenta data (TUIO).vl" tags="" />
   </Topic>
 </Pack>
