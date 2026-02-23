@@ -1,5 +1,5 @@
 ﻿
-shader DrawColoredParticles_DrawFX : VS_PS_Base, ShaderUtils
+shader AugmentaParticlesCstm_Internal_DrawFX : VS_PS_Base, ShaderUtils
 {
     StructuredBuffer<float3> ParticlesBuffer;
     StructuredBuffer<float4> ColorBuffer;
